@@ -277,7 +277,7 @@ https://github.com/ChekyYao/Java
 
 简介：Springboot + SpringMVC + WebApi(RESTful) + SpringData(JPA) + MyBatis + Druid + JDBC + MySQL + log(slf4j)
 
-准备实施...
+实施中...
 
 https://github.com/ChekyYao/SpringBootDemo
 
