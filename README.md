@@ -293,6 +293,10 @@ https://github.com/ChekyYao/SpringBootDemo
 
    ![hello mybatis](Images/emp-mybatis.jpg)
 
+   4.配置JPA
+
+   ![hello mybatis](Images/emp-jpa.jpg)
+
    
 
 

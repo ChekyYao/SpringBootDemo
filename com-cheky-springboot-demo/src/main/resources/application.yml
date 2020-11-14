@@ -36,4 +36,10 @@ spring:
       use-global-data-source-stat: true
       connect-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
+  #config JPA
+  jpa:
+    hibernate:
+      ddl-auto: update #update or create table
+    show-sql: true #show the sql on the console
+
 
