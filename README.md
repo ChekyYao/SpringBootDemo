@@ -289,6 +289,12 @@ https://github.com/ChekyYao/SpringBootDemo
 
    ![hello druid](Images/config-druid.jpg)
 
+   3.配置MyBatis
+
+   ![hello mybatis](Images/emp-mybatis.jpg)
+
+   
+
 
 
 ## **参考文献 Reference:**
