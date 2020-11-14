@@ -281,7 +281,7 @@ https://github.com/ChekyYao/SpringBootDemo
 
 1. 加入JDBC
 
-![hello jdbc](D:\GitHub\SpringBootDemo\Images\Snipaste_2020-11-14_14-47-59.png)
+![hello jdbc](Images\Snipaste_2020-11-14_14-47-59.png)
 
 2. 
 
