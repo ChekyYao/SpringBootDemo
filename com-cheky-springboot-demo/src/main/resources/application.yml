@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: JavaDemo
+    password: 123
+    url: jdbc:mysql://localhost:3306/testjob?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
