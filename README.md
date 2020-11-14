@@ -48,7 +48,7 @@ JVM 运行环境  (与操作系统交互)
 
 ### 3.2.框架
 
-**Dubbo**：分布式服务框架(RPC) 。[官网-入口](http://dubbo.apache.org/zh-cn/) |[Vedio](https://www.bilibili.com/video/BV1n4411x7tB?from=search&seid=6165747634317706089)
+**1. Dubbo**：分布式服务框架(RPC) 。[官网-入口](http://dubbo.apache.org/zh-cn/) |[Vedio](https://www.bilibili.com/video/BV1n4411x7tB?from=search&seid=6165747634317706089)
 
 [ZooKeeper](https://baike.baidu.com/item/zookeeper/4836397?fr=aladdin): 一个[分布式](https://baike.baidu.com/item/分布式/19276232)的，开放源码的[分布式应用程序](https://baike.baidu.com/item/分布式应用程序/9854429)协调服务，是[Google](https://baike.baidu.com/item/Google)的Chubby一个[开源](https://baike.baidu.com/item/开源/246339)的实现，是Hadoop和[Hbase](https://baike.baidu.com/item/Hbase/7670213)的重要组件。[官网-入口](https://zookeeper.apache.org/)
 
@@ -56,35 +56,31 @@ JVM 运行环境  (与操作系统交互)
 
 
 
-**ORM:**  
+**2. ORM:**  
 
-MyBatis [官网-入门](https://mybatis.org/mybatis-3/zh/getting-started.html) | [官方-GitHub](https://github.com/mybatis/mybatis-3)
+- MyBatis [官网-入门](https://mybatis.org/mybatis-3/zh/getting-started.html) | [官方-GitHub](https://github.com/mybatis/mybatis-3)
 
-[JPA](https://baike.baidu.com/item/JPA/5660672?fr=aladdin): 一种规范，是JDK 5.0注解或XML描述对象－关系表的映射关系，并将运行期的实体[对象持久化](https://baike.baidu.com/item/对象持久化/7316192)到数据库中。
-
-
-
-**JDBC & DB:**
-
-Druid [官网-入口](https://druid.apache.org/docs/latest/design/) | [Doc](https://druid.apache.org/docs/latest/design/) | [官方-GitHub](https://github.com/alibaba/druid/) | [官方-WIKI](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
-
-MySQL [教程](https://www.runoob.com/mysql/mysql-install.html)
+- [JPA](https://baike.baidu.com/item/JPA/5660672?fr=aladdin): 一种规范，是JDK 5.0注解或XML描述对象－关系表的映射关系，并将运行期的实体[对象持久化](https://baike.baidu.com/item/对象持久化/7316192)到数据库中。
 
 
 
-**基础**
+**3. JDBC & DB:**
 
-[Bean](https://baike.baidu.com/item/Bean/3792612?fr=aladdin): 一种规范，表达实体和信息的规范，便于封装重用。 [Reference](https://www.zhihu.com/question/19773379)
+- Druid [官网-入口](https://druid.apache.org/docs/latest/design/) | [Doc](https://druid.apache.org/docs/latest/design/) | [官方-GitHub](https://github.com/alibaba/druid/) | [官方-WIKI](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
-[DAO](https://baike.baidu.com/item/DAO/2900358?fr=aladdin): 通俗来讲，就是将数据库操作都封装起来。[Reference](https://www.runoob.com/note/27029)
-
-[AOP](https://baike.baidu.com/item/AOP/1332219?fr=aladdin): 通过[预编译](https://baike.baidu.com/item/预编译/3191547)方式和运行期间动态代理实现程序功能的统一维护的一种技术。[Reference](https://www.zhihu.com/question/24863332)
-
-META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平台的认可与解释，用来配置应用程序、扩展程序、类加载器和服务manifest.mf文件，在用jar打包时自动生成。[Reference](https://blog.csdn.net/qq_38449518/article/details/82414069)
+- MySQL [教程](https://www.runoob.com/mysql/mysql-install.html)
 
 
 
+**4. 基础**
 
+- [Bean](https://baike.baidu.com/item/Bean/3792612?fr=aladdin): 一种规范，表达实体和信息的规范，便于封装重用。 [Reference](https://www.zhihu.com/question/19773379)
+
+- [DAO](https://baike.baidu.com/item/DAO/2900358?fr=aladdin): 通俗来讲，就是将数据库操作都封装起来。[Reference](https://www.runoob.com/note/27029)
+
+- [AOP](https://baike.baidu.com/item/AOP/1332219?fr=aladdin): 通过[预编译](https://baike.baidu.com/item/预编译/3191547)方式和运行期间动态代理实现程序功能的统一维护的一种技术。[Reference](https://www.zhihu.com/question/24863332)
+
+- > META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平台的认可与解释，用来配置应用程序、扩展程序、类加载器和服务manifest.mf文件，在用jar打包时自动生成。[Reference](https://blog.csdn.net/qq_38449518/article/details/82414069)
 
 
 
@@ -107,8 +103,6 @@ META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平�
 
 
 
-
-
 ## 4.基础
 
 ### 4.1 面向对象
@@ -119,20 +113,20 @@ OOA （Object-Oriented Analysis）>> OOD （Object-Oriented Design）>> OOP （O
 
 
 
-### 4.2 IntelliJ IDEA 快捷键
+### 4.2 IntelliJ IDEA 快捷键[^2]
 
 **常用快捷键**
 
 Ctrl+Alt+S 打开Settings，找到keymap，下拉选项选为Visual studio，这样绝大多数VS快捷键就可以使用了
 
-| 其他常用快捷键        | 描述                                            |
-| --------------------- | ----------------------------------------------- |
-| Alt+Insert            | 自动生成代码（eg: AutoGenerateGetterAndSetter） |
-| Ctrl+Alt+/            | 行注释                                          |
-| Ctrl+Shift+/          | 块注释                                          |
-| Shift+Shift 或 Ctrl+T | 全局搜索                                        |
-| Ctrl+Alt+F            | 显示类中所有的成员（如方法，变量）              |
-| Ctrl+Shift+H          | 全局替换                                        |
+| 其他常用快捷键                                               | 描述                                            |
+| ------------------------------------------------------------ | ----------------------------------------------- |
+| <kbd>Alt</kbd>+<kbd>Insert</kbd>                             | 自动生成代码（eg: AutoGenerateGetterAndSetter） |
+| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>/</kbd>                  | 行注释                                          |
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>/</kbd>                | 块注释                                          |
+| <kbd>Shift</kbd>+<kbd>Shift</kbd> 或<kbd> Ctrl</kbd>+<kbd>T</kbd> | 全局搜索                                        |
+| <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F</kbd>                  | 显示类中所有的成员（如方法，变量）              |
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>                | 全局替换                                        |
 
 
 
@@ -151,7 +145,7 @@ Ctrl+Alt+S 打开Settings，找到keymap，下拉选项选为Visual studio，这
 
 
 
-### 4.3 Java 语法
+### 4.3 Java 语法[^1]
 
 静态代码块： 类加载的时候会运行。可以应用在 记录类加载的日志信息
 
@@ -247,21 +241,21 @@ var z = x == y; //true
 
 **多线程**
 
-Java 采用的调度模型 是 抢占式调度模型；
+- Java 采用的调度模型 是 抢占式调度模型；
 
-变量的线程安全：实例变量（堆） 与 静态变量（方法区） 需要 注意， 而 栈里的局部变量 不会出现线程不安全的情况。
+- 变量的线程安全：实例变量（堆） 与 静态变量（方法区） 需要 注意， 而 栈里的局部变量 不会出现线程不安全的情况。
 
 
 
 **反射**
 
-Class
+* Class
 
-Constructor
+* Constructor
 
-Field
+* Field
 
-Method
+* Method
 
 
 
@@ -287,29 +281,26 @@ https://github.com/ChekyYao/SpringBootDemo
 
 2. 配置Druid
 
-   ![hello druid](Images/config-druid.jpg)
+![hello druid](Images/config-druid.jpg)
 
-   3.配置MyBatis
+3. 配置MyBatis
 
-   ![hello mybatis](Images/emp-mybatis.jpg)
+![hello mybatis](Images/emp-mybatis.jpg)
 
-   4.配置JPA
+4. 配置JPA
 
-   ![hello mybatis](Images/emp-jpa.jpg)
+![hello mybatis](Images/emp-jpa.jpg)
 
-   
+
 
 
 
 ## **参考文献 Reference:**
 
-[1].  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)
-
-[2]. [IntelliJ IDEA 入门](https://www.bilibili.com/video/BV1DE411r7r1?from=search&seid=5422164101846745456) 与  [IDEA从零基础到专业 **(推荐)**](https://www.bilibili.com/video/BV157411m7VL?p=5)
-
-[3]. [IDEA Plugins](https://plugins.jetbrains.com/)
-
-[4]. [WebJars](https://www.webjars.org/)
+[^1]:  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)
+[^2]: [IntelliJ IDEA 入门](https://www.bilibili.com/video/BV1DE411r7r1?from=search&seid=5422164101846745456) 与  [IDEA从零基础到专业 **(推荐)**](https://www.bilibili.com/video/BV157411m7VL?p=5)
+[^3]: [IDEA Plugins](https://plugins.jetbrains.com/)
+[^4]: [WebJars](https://www.webjars.org/)
 
 
 
@@ -354,4 +345,3 @@ if you have any question, please contact me.
 **EXP Date: 2020-12-31**
 
 **e-Mail: 13925568211@163.com**
-
