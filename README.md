@@ -279,11 +279,13 @@ https://github.com/ChekyYao/Java
 
 https://github.com/ChekyYao/SpringBootDemo
 
-1. 加入JDBC
+1. 配置JDBC
 
 ![hello jdbc](Images\hello-jdbc.jpg)
 
-2. 
+2. 配置Druid
+
+   ![hello druid](Images/config-druid.jpg)
 
 
 
