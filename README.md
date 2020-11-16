@@ -6,7 +6,7 @@
 
 ## 1.安装
 
-安装 [11 JDK](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11) | [Doc](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
+安装 [11 JDK](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11) | [Doc](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) | [OpenJDK 11 (推荐)](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jdk&show-old-builds=true)
 
 安装 [IntelliJ IDEA Community Edition](https://www.jetbrains.com/zh-cn/idea/download/download-thanks.html?platform=windows&code=IIC) 
 
