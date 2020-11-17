@@ -12,7 +12,7 @@
 
 安装 [IntelliJ IDEA Community Edition](https://www.jetbrains.com/zh-cn/idea/download/download-thanks.html?platform=windows&code=IIC) 
 
-安装 MySql [Installer Version (推荐)](https://dev.mysql.com/downloads/windows/installer/) | [Installer 教程](https://www.runoob.com/w3cnote/windows10-mysql-installer.html)；也可以单独安装 [Workbench Version](https://dev.mysql.com/downloads/file/?id=498730) 
+安装 MySql [Installer Version (推荐 下载最新但安装选择5.7)](https://dev.mysql.com/downloads/windows/installer/) | [Installer 教程](https://www.runoob.com/w3cnote/windows10-mysql-installer.html)；也可以单独安装 [Workbench Version](https://dev.mysql.com/downloads/file/?id=498730) 
 
 环境 [Maven](https://maven.apache.org/) IDEA本身有自动捆绑的
 
@@ -69,8 +69,9 @@ JVM 运行环境  (与操作系统交互)
 **3. JDBC & DB:**
 
 - Druid [官网-入口](https://druid.apache.org/docs/latest/design/) | [Doc](https://druid.apache.org/docs/latest/design/) | [官方-GitHub](https://github.com/alibaba/druid/) | [官方-WIKI](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
-
 - MySQL [教程](https://www.runoob.com/mysql/mysql-install.html)
+- dbeaver [官网-入口](https://dbeaver.io/) | [Vedio](https://www.bilibili.com/video/BV1Jv411678J?t=890)
+- SQL样式指南 [参考](https://www.sqlstyle.guide/zh/)
 
 
 
@@ -148,6 +149,8 @@ Ctrl+Alt+S 打开Settings，找到keymap，下拉选项选为Visual studio，这
 
 
 ### 4.3 Java 语法[^1]
+
+[Coding Standard (推荐)](https://github.com/alibaba/p3c/blob/master/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E5%B5%A9%E5%B1%B1%E7%89%88%EF%BC%89.pdf)
 
 静态代码块： 类加载的时候会运行。可以应用在 记录类加载的日志信息
 
@@ -333,6 +336,12 @@ https://github.com/ChekyYao/SpringBootDemo
    
    
 4. IDEA 社区版不支持 Diagrams
+
+   
+
+5. 解决maven 在intellij IDEA 下载依赖包速度慢的问题
+
+   尝试改为Alibaba仓，但速度无明显提升。[[Reference](https://www.jianshu.com/p/63a593700ebc)]
 
 
 
