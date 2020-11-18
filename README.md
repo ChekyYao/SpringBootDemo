@@ -103,12 +103,6 @@ JVM 运行环境  (与操作系统交互)
 
 
 
-### 3.4. Repositories & Dependencies
-
-[Maven](https://mvnrepository.com/) (Sample:  Druid)
-
-
-
 ## 4.基础
 
 ### 4.1. 面向对象
@@ -326,7 +320,9 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 
 [官网-入口](https://maven.apache.org/) | [Repositories](https://mvnrepository.com/) | [Vedio](https://www.bilibili.com/video/BV124411H7Fj?p=3)| [教程](https://www.runoob.com/maven/maven-repositories.html) 
 
-简介：项目管理工具，如 管理jar包，集成测试，一键打包等
+简介：项目管理工具，如 管理jar包，集成测试，一键打包等。
+
+Repositories： 可以在上面找到 如 Druid 的Maven包。
 
 ## 5.实战
 
