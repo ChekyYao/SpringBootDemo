@@ -322,6 +322,12 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 
 安装 [阿里编码规约插件](https://jingyan.baidu.com/article/75ab0bcb75beced6864db2b1.html)
 
+### 4.7. Maven
+
+[官网-入口](https://maven.apache.org/) | [Repositories](https://mvnrepository.com/) | [Vedio](https://www.bilibili.com/video/BV124411H7Fj?p=3)| [教程](https://www.runoob.com/maven/maven-repositories.html) 
+
+简介：项目管理工具，如 管理jar包，集成测试，一键打包等
+
 ## 5.实战
 
 ### 5.1. 学习Templates
