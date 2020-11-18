@@ -8,9 +8,12 @@
 
 ## 1.安装
 
-安装 [11 JDK](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11) | [Doc](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) | [OpenJDK 11 (推荐)](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jdk&show-old-builds=true)
+1. 安装 [11 JDK](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11) | [Doc](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) | [OpenJDK 11 (推荐)](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jdk&show-old-builds=true)
 
-安装 [IntelliJ IDEA Community Edition](https://www.jetbrains.com/zh-cn/idea/download/download-thanks.html?platform=windows&code=IIC) 
+2. 安装 [IntelliJ IDEA Community Edition](https://www.jetbrains.com/zh-cn/idea/download/download-thanks.html?platform=windows&code=IIC) 
+   - 安装 插件 [Spring Assistant](https://blog.csdn.net/u012860950/article/details/76146072)
+   - 安装 插件 详见 4.5. Lombok
+   - 安装 插件 详见 4.6. Coding Style
 
 安装 MySql [Installer Version (推荐 下载最新但安装选择5.7)](https://dev.mysql.com/downloads/windows/installer/) | [Installer 教程](https://www.runoob.com/w3cnote/windows10-mysql-installer.html)；也可以单独安装 [Workbench Version](https://dev.mysql.com/downloads/file/?id=498730) 
 
@@ -162,7 +165,7 @@ Exception: 分为 运行时异常（概率小）和 编译时异常（概率大�
 
 
 
-**关键字转换**
+**关键字转换[Reference](https://www.tangiblesoftwaresolutions.com/java-and-csharp-equivalents.html)**
 
 | Java                                 | C#             |
 | ------------------------------------ | -------------- |
@@ -296,7 +299,28 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 | git push origin -delete [branch-name] | 删除远程分支                       |
 | git branch -dr [remote/branch]        | 删除远程分支                       |
 
+### 4.5. Lombok
 
+[官网-入口](https://projectlombok.org/) | [Vedio](https://www.bilibili.com/video/BV1qJ411G7Dv?from=search&seid=17190820160849777380) | [Reference](https://zhuanlan.zhihu.com/p/32779910)
+
+简述：透过注解，实现不用再编写冗长代码；如@Setter @Getter，从而提升开发效率和代码简洁。
+
+- IDEA 需安装插件 Lombok
+
+- Project 需引入相应maven包
+
+  ```xml
+  <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.12</version>
+      <scope>provided</scope>
+  </dependency>
+  ```
+
+### 4.6. Coding Style
+
+安装 [阿里编码规约插件](https://jingyan.baidu.com/article/75ab0bcb75beced6864db2b1.html)
 
 ## 5.实战
 
