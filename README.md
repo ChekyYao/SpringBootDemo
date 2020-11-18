@@ -364,6 +364,7 @@ https://github.com/ChekyYao/SpringBootDemo
 [^2]: [IntelliJ IDEA 入门](https://www.bilibili.com/video/BV1DE411r7r1?from=search&seid=5422164101846745456) 与  [IDEA从零基础到专业 **(推荐)**](https://www.bilibili.com/video/BV157411m7VL?p=5)
 [^3]: [IDEA Plugins](https://plugins.jetbrains.com/)
 [^4]: [WebJars](https://www.webjars.org/)
+[^5]: [License](https://blog.csdn.net/u012088909/article/details/106034587)
 
 
 
