@@ -108,7 +108,7 @@ JVM 运行环境  (与操作系统交互)
 
 ## 4.基础
 
-### 4.1 面向对象
+### 4.1. 面向对象
 
 特征：封装，继承，多态
 
@@ -116,7 +116,7 @@ OOA （Object-Oriented Analysis）>> OOD （Object-Oriented Design）>> OOP （O
 
 
 
-### 4.2 IntelliJ IDEA 快捷键[^2]
+### 4.2. IntelliJ IDEA 快捷键[^2]
 
 **常用快捷键**
 
@@ -148,7 +148,7 @@ Ctrl+Alt+S 打开Settings，找到keymap，下拉选项选为Visual studio，这
 
 
 
-### 4.3 Java 语法[^1]
+### 4.3. Java 语法[^1]
 
 [Coding Standard (推荐)](https://github.com/alibaba/p3c/blob/master/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E5%B5%A9%E5%B1%B1%E7%89%88%EF%BC%89.pdf)
 
@@ -255,12 +255,46 @@ var z = x == y; //true
 **反射**
 
 * Class
-
 * Constructor
-
 * Field
-
 * Method
+
+
+
+### 4.4. Git
+
+Git: [官网-入口](https://git-scm.com/) | [教程](https://www.runoob.com/git/git-remote-repo.html) | [Vedio](https://www.bilibili.com/video/BV1FE411P7B3?from=search&seid=15397190439228285818)
+
+SourceTree: [官网入口](https://www.sourcetreeapp.com/)
+
+平台: GitHub, Gitee
+
+How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1mt411B7wZ?from=search&seid=4591624557982506335)
+
+**常用指令**
+
+| 指令                       | 描述                       |
+| -------------------------- | -------------------------- |
+| git config --global --list | 全局配置(必配，类似ID)     |
+| git config --system --list | 系统配置                   |
+| git init                   | 初始化本地仓库             |
+| git clone [url]            | 克隆远程仓                 |
+| git status                 |                            |
+| git add .                  | 添加所有文件到暂存区       |
+| git commit -m ["message"]  | 提交暂存区中的内容到本地仓 |
+
+**常用分支命令：用于多人协作**
+
+| 指令                                  | 描述                               |
+| ------------------------------------- | ---------------------------------- |
+| git branch                            | 列出所有本地分支                   |
+| git branch -r                         | 列出所有远程分支                   |
+| git branch [branch-name]              | 新建一个分支，但依然停留在当前分支 |
+| git checkout -b [branch]              | 新建一个分支，并切换到该分支       |
+| git merge [branch]                    | 合并指定分支到当前分支             |
+| git branch -d [branch-name]           | 删除分支                           |
+| git push origin -delete [branch-name] | 删除远程分支                       |
+| git branch -dr [remote/branch]        | 删除远程分支                       |
 
 
 
