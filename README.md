@@ -15,9 +15,9 @@
    - 安装 插件 详见 4.5. Lombok
    - 安装 插件 详见 4.6. Coding Style
 
-安装 MySql [Installer Version (推荐 下载最新但安装选择5.7)](https://dev.mysql.com/downloads/windows/installer/) | [Installer 教程](https://www.runoob.com/w3cnote/windows10-mysql-installer.html)；也可以单独安装 [Workbench Version](https://dev.mysql.com/downloads/file/?id=498730) 
+3. 安装 MySql [Installer Version (推荐 下载最新但安装选择5.7)](https://dev.mysql.com/downloads/windows/installer/) | [Installer 教程](https://www.runoob.com/w3cnote/windows10-mysql-installer.html)；也可以单独安装 [Workbench Version](https://dev.mysql.com/downloads/file/?id=498730) 
 
-环境 [Maven](https://maven.apache.org/) IDEA本身有自动捆绑的
+4. 环境 [Maven](https://maven.apache.org/) IDEA本身有自动捆绑的
 
 
 
@@ -65,7 +65,13 @@ JVM 运行环境  (与操作系统交互)
 
 - MyBatis [官网-入门](https://mybatis.org/mybatis-3/zh/getting-started.html) | [官方-GitHub](https://github.com/mybatis/mybatis-3)
 
-- [JPA](https://baike.baidu.com/item/JPA/5660672?fr=aladdin): 一种规范，是JDK 5.0注解或XML描述对象－关系表的映射关系，并将运行期的实体[对象持久化](https://baike.baidu.com/item/对象持久化/7316192)到数据库中。
+
+
+- JPA 
+
+  [Vedio 1 (推荐)](https://www.bilibili.com/video/BV1hE411s72B?from=search&seid=15178363451123815741) | [Vedio 2](https://www.bilibili.com/video/BV1vW411M7zp?from=search&seid=4569420490784919925) | [教程](https://www.w3cschool.cn/java/jpa-entitymanager.html) | [百科](https://baike.baidu.com/item/JPA/5660672?fr=aladdin) | [关系](https://my.oschina.net/u/3080373/blog/1828589)
+
+  简述：一种规范。简化应用开发工作；希望整合ORM技术，实现天下归一。
 
 
 
@@ -318,7 +324,7 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 
 ### 4.7. Maven
 
-[官网-入口](https://maven.apache.org/) | [Repositories](https://mvnrepository.com/) | [Vedio](https://www.bilibili.com/video/BV124411H7Fj?p=3)| [教程](https://www.runoob.com/maven/maven-repositories.html) 
+[官网-入口](https://maven.apache.org/) | [Repositories](https://mvnrepository.com/) | [Vedio 1](https://www.bilibili.com/video/BV124411H7Fj?p=3) | [Vedio 2](https://www.bilibili.com/video/BV1dp4y1Q7Hf?from=search&seid=14638114435887962271)| [教程](https://www.runoob.com/maven/maven-repositories.html) 
 
 简介：项目管理工具，如 管理jar包，集成测试，一键打包等。
 
