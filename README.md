@@ -72,14 +72,21 @@ JVM 运行环境  (与操作系统交互)
   [Vedio 1 (推荐)](https://www.bilibili.com/video/BV1hE411s72B?from=search&seid=15178363451123815741) | [Vedio 2](https://www.bilibili.com/video/BV1vW411M7zp?from=search&seid=4569420490784919925) | [教程](https://www.w3cschool.cn/java/jpa-entitymanager.html) | [百科](https://baike.baidu.com/item/JPA/5660672?fr=aladdin) | [关系](https://my.oschina.net/u/3080373/blog/1828589)
 
   简述：一种规范。简化应用开发工作；希望整合ORM技术，实现天下归一。
+  
+  路线：SpringDataJpa >> JPA规范的API >> hibernate(实现了JPA) >> JDBC >> DB
 
 
 
 **3. JDBC & DB:**
 
 - Druid [官网-入口](https://druid.apache.org/docs/latest/design/) | [Doc](https://druid.apache.org/docs/latest/design/) | [官方-GitHub](https://github.com/alibaba/druid/) | [官方-WIKI](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+
 - MySQL [教程](https://www.runoob.com/mysql/mysql-install.html)
+
+  DQL, DML, DDL, DCL 的[概念和区别](https://www.cnblogs.com/fan-yuan/p/7879353.html)
+
 - dbeaver [官网-入口](https://dbeaver.io/) | [Vedio](https://www.bilibili.com/video/BV1Jv411678J?t=890)
+
 - SQL样式指南 [参考](https://www.sqlstyle.guide/zh/)
 
 

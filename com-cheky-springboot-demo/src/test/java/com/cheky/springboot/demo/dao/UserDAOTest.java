@@ -4,6 +4,7 @@ import com.cheky.springboot.demo.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
@@ -38,5 +39,13 @@ public class UserDAOTest {
     public void testGetOne(){
         User one = userDAO.getOne(1);//延迟加载，即使用的时候才会加载；用的是JDBC 的 EM.GetReference()
         System.out.println("one = " + one);
+    }
+
+    @Test
+    @Transactional
+    @Rollback(value = false)
+    public void testUpdateUser() {
+        var count = userDAO.updateUser(1, "hello");
+        System.out.println("count = " + count);
     }
 }
