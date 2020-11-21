@@ -43,4 +43,8 @@ public class UserDAOJpqlTest {
             System.out.println(user);
         }
     }
+
+    //https://www.bilibili.com/video/BV1vW411M7zp?p=23
+    //SubQuery
+    //Function
 }

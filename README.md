@@ -74,6 +74,8 @@ JVM 运行环境  (与操作系统交互)
   简述：一种规范。简化应用开发工作；希望整合ORM技术，实现天下归一。
   
   路线：SpringDataJpa >> JPA规范的API >> hibernate(实现了JPA) >> JDBC >> DB
+  
+  JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 
 
@@ -337,6 +339,8 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 
 Repositories： 可以在上面找到 如 Druid 的Maven包。
 
+
+
 ## 5.实战
 
 ### 5.1. 学习Templates
@@ -380,6 +384,7 @@ https://github.com/ChekyYao/SpringBootDemo
 [^3]: [IDEA Plugins](https://plugins.jetbrains.com/)
 [^4]: [WebJars](https://www.webjars.org/)
 [^5]: [License](https://blog.csdn.net/u012088909/article/details/106034587)
+[^6]: UML：统一建模语言 [百科](https://baike.baidu.com/item/%E7%BB%9F%E4%B8%80%E5%BB%BA%E6%A8%A1%E8%AF%AD%E8%A8%80/3160571?fromtitle=UML&fromid=446747&fr=aladdin) | [Vedio 1](https://www.bilibili.com/video/BV1P741127u7?from=search&seid=7452914625849082333)
 
 
 
