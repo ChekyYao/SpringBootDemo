@@ -53,7 +53,11 @@ JVM 运行环境  (与操作系统交互)
 
 ### 3.2.框架
 
-**1. Dubbo**：分布式服务框架(RPC) 。[官网-入口](http://dubbo.apache.org/zh-cn/) |[Vedio](https://www.bilibili.com/video/BV1n4411x7tB?from=search&seid=6165747634317706089)
+#### 3.2.1. Dubbo
+
+[官网-入口](http://dubbo.apache.org/zh-cn/) | [Vedio](https://www.bilibili.com/video/BV1n4411x7tB?from=search&seid=6165747634317706089)
+
+简述：分布式服务框架(RPC) 。
 
 [ZooKeeper](https://baike.baidu.com/item/zookeeper/4836397?fr=aladdin): 一个[分布式](https://baike.baidu.com/item/分布式/19276232)的，开放源码的[分布式应用程序](https://baike.baidu.com/item/分布式应用程序/9854429)协调服务，是[Google](https://baike.baidu.com/item/Google)的Chubby一个[开源](https://baike.baidu.com/item/开源/246339)的实现，是Hadoop和[Hbase](https://baike.baidu.com/item/Hbase/7670213)的重要组件。[官网-入口](https://zookeeper.apache.org/)
 
@@ -61,25 +65,25 @@ JVM 运行环境  (与操作系统交互)
 
 
 
-**2. ORM:**  
+#### 3.2.2. ORM 之 MyBatis
 
-- MyBatis [官网-入门](https://mybatis.org/mybatis-3/zh/getting-started.html) | [官方-GitHub](https://github.com/mybatis/mybatis-3)
-
-
-
-- JPA 
-
-  [Vedio 1 (推荐)](https://www.bilibili.com/video/BV1hE411s72B?from=search&seid=15178363451123815741) | [Vedio 2](https://www.bilibili.com/video/BV1vW411M7zp?from=search&seid=4569420490784919925) | [教程](https://www.w3cschool.cn/java/jpa-entitymanager.html) | [百科](https://baike.baidu.com/item/JPA/5660672?fr=aladdin) | [关系](https://my.oschina.net/u/3080373/blog/1828589)
-
-  简述：一种规范。简化应用开发工作；希望整合ORM技术，实现天下归一。
-  
-  路线：SpringDataJpa >> JPA规范的API >> hibernate(实现了JPA) >> JDBC >> DB
-  
-  JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
+[官网-入门](https://mybatis.org/mybatis-3/zh/getting-started.html) | [官方-GitHub](https://github.com/mybatis/mybatis-3)
 
 
 
-**3. JDBC & DB:**
+#### 3.2.3. ORM 之 JPA 
+
+[Vedio 1 (推荐)](https://www.bilibili.com/video/BV1hE411s72B?from=search&seid=15178363451123815741) | [Vedio 2](https://www.bilibili.com/video/BV1vW411M7zp?from=search&seid=4569420490784919925) | [教程](https://www.w3cschool.cn/java/jpa-entitymanager.html) | [百科](https://baike.baidu.com/item/JPA/5660672?fr=aladdin) | [关系](https://my.oschina.net/u/3080373/blog/1828589)
+
+简述：一种规范。简化应用开发工作；希望整合ORM技术，实现天下归一。
+
+路线：SpringDataJpa >> JPA规范的API >> hibernate(实现了JPA) >> JDBC >> DB
+
+JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
+
+
+
+#### 3.2.4. JDBC & DB:
 
 - Druid [官网-入口](https://druid.apache.org/docs/latest/design/) | [Doc](https://druid.apache.org/docs/latest/design/) | [官方-GitHub](https://github.com/alibaba/druid/) | [官方-WIKI](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
@@ -93,7 +97,7 @@ JVM 运行环境  (与操作系统交互)
 
 
 
-**4. 基础**
+#### 3.2.5. 基础概念
 
 - [Bean](https://baike.baidu.com/item/Bean/3792612?fr=aladdin): 一种规范，表达实体和信息的规范，便于封装重用。 [Reference](https://www.zhihu.com/question/19773379)
 
@@ -275,7 +279,7 @@ var z = x == y; //true
 
 ### 4.4. Git
 
-Git: [官网-入口](https://git-scm.com/) | [教程](https://www.runoob.com/git/git-remote-repo.html) | [Vedio](https://www.bilibili.com/video/BV1FE411P7B3?from=search&seid=15397190439228285818)
+Git: [官网-入口](https://git-scm.com/) | [教程](https://www.runoob.com/git/git-remote-repo.html) | [Vedio](https://www.bilibili.com/video/BV1FE411P7B3?from=search&seid=15397190439228285818) | [Git flow](https://gitbook.tw/chapters/gitflow/why-need-git-flow.html)
 
 SourceTree: [官网入口](https://www.sourcetreeapp.com/)
 
