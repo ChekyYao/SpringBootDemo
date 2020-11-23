@@ -111,6 +111,8 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 ### 3.3. WebApi编码风格RESTful[CRUD](https://baike.baidu.com/item/crud/3606157?fr=aladdin)
 
+[Vedio](https://www.bilibili.com/video/BV1Nt411b7m8?from=search&seid=1828525539571397242)
+
 以操作员工Emp为例
 
 |          | 普通CRUD(uri来区分操作)  | RESTfulCRUD       |
@@ -119,6 +121,8 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 | Retrieve | getEmp                   | emp---Get         |
 | Update   | updateEmp?id=xx1&col=xx2 | emp/{id}---PUT    |
 | Delete   | deleteEmp?id=xxx         | emp/{id}---DELETE |
+
+需要了解 [JsonAPI](http://jsonapi.org.cn/)
 
 
 
