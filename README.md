@@ -67,7 +67,7 @@ JVM 运行环境  (与操作系统交互)
 
 #### 3.2.2. ORM 之 MyBatis
 
-[官网-入门](https://mybatis.org/mybatis-3/zh/getting-started.html) | [官方-GitHub](https://github.com/mybatis/mybatis-3)
+[官网-入门](https://mybatis.org/mybatis-3/zh/getting-started.html) | [官方-GitHub](https://github.com/mybatis/mybatis-3) | [Vedio](https://www.bilibili.com/video/BV185411s7Ry)
 
 
 
