@@ -111,7 +111,7 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 ### 3.3. WebApi编码风格RESTful[CRUD](https://baike.baidu.com/item/crud/3606157?fr=aladdin)
 
-[Vedio](https://www.bilibili.com/video/BV1Nt411b7m8?from=search&seid=1828525539571397242)
+[Vedio 1](https://www.bilibili.com/video/BV1Nt411b7m8?from=search&seid=1828525539571397242) | [Vedio 2 (推荐)](https://www.bilibili.com/video/BV1Zi4y1g75p?from=search&seid=13898736271447053760)
 
 以操作员工Emp为例
 
@@ -201,6 +201,7 @@ Exception: 分为 运行时异常（概率小）和 编译时异常（概率大�
 | ...                                  | params         |
 | @interface @Target @Retention 元注解 | Attribute      |
 | @Deprecated                          | Obsolete       |
+| <?extendsT> 或 <?superT>             | T where T: ?   |
 
 
 

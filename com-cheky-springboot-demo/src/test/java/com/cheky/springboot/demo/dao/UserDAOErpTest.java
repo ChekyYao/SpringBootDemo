@@ -4,19 +4,14 @@ import com.cheky.springboot.demo.entity.Role;
 import com.cheky.springboot.demo.entity.User;
 import com.cheky.springboot.demo.entity.UserAddress;
 import com.cheky.springboot.demo.entity.UserExpand;
-import com.cheky.springboot.demo.repository.UserRepository;
+import lombok.NonNull;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.jpa.domain.Specification;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.criteria.*;
 import java.util.Date;
-import java.util.List;
 
 /**
  * ERP 关系处理
@@ -42,14 +37,8 @@ public class UserDAOErpTest {
     @Transactional
     @Rollback(value = false)
     public void testOneToOne() {
-        var user = new User();
-        user.setLastName("Cheky");
-        user.setEmail("139@163.com");
-        var userExpand = new UserExpand();
-        userExpand.setLastLoginDate(new Date());
-        userExpand.setLastLoginPlace("SZX");
-        userExpand.setUser(user);
-        //user.setUserExpand(userExpand); // 放弃了维护权后，这里设定外键将不会生效
+        var user = createUser();
+        var userExpand = createUserExpand(user);
         System.out.println("user = " + user);
         System.out.println("userExpand = " + userExpand);
         final var userSaved = userDAO.save(user);
@@ -76,13 +65,8 @@ public class UserDAOErpTest {
     @Transactional
     @Rollback(value = false)
     public void testOneToManyForAdd() {
-        var user = new User();
-        user.setLastName("Cheky");
-        user.setEmail("139@163.com");
-        var address = new UserAddress();
-        address.setAddress("SZX Address");
-        address.setUser(user);
-        //user.getUserAddresses().add(address); // 放弃了维护权后，这里设定外键将不会生效
+        var user = createUser();
+        var address = createAddress(user);
         System.out.println("user = " + user);
         System.out.println("address = " + address);
         final var userSaved = userDAO.save(user);
@@ -109,13 +93,8 @@ public class UserDAOErpTest {
     @Transactional
     @Rollback(value = false)
     public void testManyToManyForAdd() {
-        var user = new User();
-        user.setLastName("Cheky");
-        user.setEmail("139@163.com");
-        var role = new Role();
-        role.setRoleName("Admin");
-        user.getRoles().add(role);
-        //role.getUsers().add(user); // 放弃了维护权后，这里设定外键将不会生效
+        var user = createUser();
+        var role = createRole(user);
         System.out.println("user = " + user);
         System.out.println("role = " + role);
         final var userSaved = userDAO.save(user);
@@ -134,5 +113,62 @@ public class UserDAOErpTest {
 
         System.out.println("级联删除：方法2");
         userDAO.deleteById(12);
+    }
+
+    @Test
+    @Transactional
+    @Rollback(value = false)
+    public void testAllErpForAdd() {
+        var user = createUser();
+        var role = createRole(user);
+        var address = createAddress(user);
+        var userExpand = createUserExpand(user);
+        final var userSaved = userDAO.save(user);
+        System.out.println("userSaved = " + userSaved);
+        final var userRoleSaved = roleDAO.save(role);
+        System.out.println("userRoleSaved = " + userRoleSaved);
+        final var userAddressSaved = userAddressDAO.save(address);
+        System.out.println("userAddressSaved = " + userAddressSaved);
+        final var userExpandSaved = userExpandDAO.save(userExpand);
+        System.out.println("userExpandSaved = " + userExpandSaved);
+    }
+
+    @Test
+    @Transactional
+    @Rollback(value = false)
+    public void testAllErpForDelete() {
+        userDAO.deleteById(14);
+    }
+
+    private User createUser(){
+        var user = new User();
+        user.setLastName("Cheky");
+        user.setEmail("139@163.com");
+        return user;
+    }
+
+    private Role createRole(@NonNull User user) {
+        var role = new Role();
+        role.setRoleName("Admin");
+        user.getRoles().add(role);
+        //role.getUsers().add(user); // 放弃了维护权后，这里设定外键将不会生效
+        return role;
+    }
+
+    private UserAddress createAddress(@NonNull User user) {
+        var address = new UserAddress();
+        address.setAddress("SZX Address");
+        address.setUser(user);
+        //user.getUserAddresses().add(address); // 放弃了维护权后，这里设定外键将不会生效
+        return address;
+    }
+
+    private UserExpand createUserExpand(@NonNull User user) {
+        var userExpand = new UserExpand();
+        userExpand.setLastLoginDate(new Date());
+        userExpand.setLastLoginPlace("SZX");
+        userExpand.setUser(user);
+        //user.setUserExpand(userExpand); // 放弃了维护权后，这里设定外键将不会生效
+        return userExpand;
     }
 }

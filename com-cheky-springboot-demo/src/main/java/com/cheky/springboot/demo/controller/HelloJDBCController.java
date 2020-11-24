@@ -17,7 +17,7 @@ public class HelloJDBCController {
 
     @GetMapping("/hello/jdbc")
     public Map<String, Object> map(){
-        var list = jdbcTemplate.queryForList("select * from testtable");
+        var list = jdbcTemplate.queryForList("select * from ur_user");
         return list.get(0);
     }
 }
