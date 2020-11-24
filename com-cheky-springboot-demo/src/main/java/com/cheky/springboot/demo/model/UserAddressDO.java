@@ -1,6 +1,5 @@
-package com.cheky.springboot.demo.entity;
+package com.cheky.springboot.demo.model;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -15,14 +14,14 @@ import javax.persistence.*;
 @Setter
 @Getter
 @ToString
-public class UserAddress {
+public class UserAddressDO {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @ManyToOne(targetEntity = User.class)
+    @ManyToOne(targetEntity = UserDO.class)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
-    private User user;
+    private UserDO user;
 
     @Column
     private String address;

@@ -1,6 +1,6 @@
 package com.cheky.springboot.demo.dao;
 
-import com.cheky.springboot.demo.entity.User;
+import com.cheky.springboot.demo.model.UserDO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -37,7 +37,7 @@ public class UserDAOTest {
     @Test
     @Transactional //因为延迟加载，所以需要在同个事务中进行测试
     public void testGetOne(){
-        User one = userDAO.getOne(1);//延迟加载，即使用的时候才会加载；用的是JDBC 的 EM.GetReference()
+        UserDO one = userDAO.getOne(1);//延迟加载，即使用的时候才会加载；用的是JDBC 的 EM.GetReference()
         System.out.println("one = " + one);
     }
 

@@ -1,25 +1,25 @@
 package com.cheky.springboot.demo.controller;
 
 import com.cheky.springboot.demo.dao.UserDAO;
-import com.cheky.springboot.demo.entity.User;
+import com.cheky.springboot.demo.model.UserDO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 /**
  * @author Cheky
  * 依据RESTful 实现CRUD
  */
 @RestController()
-@RequestMapping("/jpa/user")
+@RequestMapping("jpa/user")
 public class UserJpaController {
 
     @Autowired
     UserDAO userDAO;
 
-    @GetMapping("/{id}")
-    public User getUser(@PathVariable("id") Integer id){
+    @GetMapping("{id}")
+    public UserDO getUser(@PathVariable("id") final Integer id){
         var existsUser = userDAO.existsById(id);
         if (existsUser) {
             return userDAO.findById(id).get();
@@ -29,34 +29,21 @@ public class UserJpaController {
     }
 
     @PostMapping
-    public User insertUser(User user){
-        var userId = user.getId();
-        if (userId == null) {
-            return userDAO.save(user);
-        } else {
-            throw new RuntimeException("id 为自动生成key，请勿赋值");
-        }
+    public ResponseEntity insertUser(@RequestBody UserDO user){
+        userDAO.save(user);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
-    @DeleteMapping("/{id}")
-    public String deleteUser(@PathVariable("id") Integer id){
-        var existsUser = userDAO.existsById(id);
-        if (existsUser) {
-            userDAO.deleteById(id);
-            return "删除成功！id=" + id;
-        } else {
-            return "无此用户 id=" + id;
-        }
-
+    @DeleteMapping("{id}")
+    public ResponseEntity deleteUser(@PathVariable("id") final Integer id){
+        userDAO.deleteById(id);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 
-    @PutMapping
-    public User updateUser(User user){
-        var existsUser = userDAO.existsById(user.getId());
-        if (existsUser) {
-            return userDAO.save(user);
-        } else {
-            throw new RuntimeException("该用户不存在! id="+user.getId());
-        }
+    @PutMapping("{id}")
+    public ResponseEntity updateUser(@PathVariable("id") final Integer id,final UserDO user){
+        user.setId(id);
+        userDAO.save(user);
+        return ResponseEntity.status(HttpStatus.OK).build();
     }
 }

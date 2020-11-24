@@ -1,4 +1,4 @@
-package com.cheky.springboot.demo.entity;
+package com.cheky.springboot.demo.model;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,9 +1,9 @@
 package com.cheky.springboot.demo.dao;
 
-import com.cheky.springboot.demo.entity.Role;
-import com.cheky.springboot.demo.entity.User;
-import com.cheky.springboot.demo.entity.UserAddress;
-import com.cheky.springboot.demo.entity.UserExpand;
+import com.cheky.springboot.demo.model.RoleDO;
+import com.cheky.springboot.demo.model.UserDO;
+import com.cheky.springboot.demo.model.UserAddressDO;
+import com.cheky.springboot.demo.model.UserExpandDO;
 import lombok.NonNull;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -140,31 +140,31 @@ public class UserDAOErpTest {
         userDAO.deleteById(14);
     }
 
-    private User createUser(){
-        var user = new User();
+    private UserDO createUser(){
+        var user = new UserDO();
         user.setLastName("Cheky");
         user.setEmail("139@163.com");
         return user;
     }
 
-    private Role createRole(@NonNull User user) {
-        var role = new Role();
+    private RoleDO createRole(@NonNull UserDO user) {
+        var role = new RoleDO();
         role.setRoleName("Admin");
         user.getRoles().add(role);
         //role.getUsers().add(user); // 放弃了维护权后，这里设定外键将不会生效
         return role;
     }
 
-    private UserAddress createAddress(@NonNull User user) {
-        var address = new UserAddress();
+    private UserAddressDO createAddress(@NonNull UserDO user) {
+        var address = new UserAddressDO();
         address.setAddress("SZX Address");
         address.setUser(user);
         //user.getUserAddresses().add(address); // 放弃了维护权后，这里设定外键将不会生效
         return address;
     }
 
-    private UserExpand createUserExpand(@NonNull User user) {
-        var userExpand = new UserExpand();
+    private UserExpandDO createUserExpand(@NonNull UserDO user) {
+        var userExpand = new UserExpandDO();
         userExpand.setLastLoginDate(new Date());
         userExpand.setLastLoginPlace("SZX");
         userExpand.setUser(user);

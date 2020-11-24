@@ -1,6 +1,5 @@
-package com.cheky.springboot.demo.entity;
+package com.cheky.springboot.demo.model;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -19,7 +18,7 @@ import java.util.Set;
 @Getter
 @ToString
 //@Data // 使用此注解会导致级联删除时，由于HashCode集合递归而造成内存溢出，从而导致级联删除失败
-public class User {
+public class UserDO {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -43,15 +42,15 @@ public class User {
     //mappedBy: 放弃外键维护，关系参照 对方配置关系的属性名
     //cascade: 级联操作
     @OneToOne(mappedBy = "user",cascade = CascadeType.ALL)
-    private UserExpand userExpand;
+    private UserExpandDO userExpand;
 
     @OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
-    private Set<UserAddress> userAddresses = new HashSet<>();
+    private Set<UserAddressDO> userAddresses = new HashSet<>();
 
-    @ManyToMany(targetEntity = Role.class)
+    @ManyToMany(targetEntity = RoleDO.class)
     @JoinTable(name = "sys_user_role",
             joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
             inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")}
     )
-    private Set<Role> roles = new HashSet<>();
+    private Set<RoleDO> roles = new HashSet<>();
 }

@@ -1,6 +1,6 @@
 package com.cheky.springboot.demo.dao;
 
-import com.cheky.springboot.demo.entity.User;
+import com.cheky.springboot.demo.model.UserDO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
@@ -8,15 +8,15 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface UserDAO extends JpaRepository<User, Integer>, JpaSpecificationExecutor<User> {
+public interface UserDAO extends JpaRepository<UserDO, Integer>, JpaSpecificationExecutor<UserDO> {
 
     /**
      * 查询 使用jpql 依据lastName 找到User
      * @param lastName
      * @return user
      */
-    @Query(value = "from User where lastName = ?1")
-    User findOneByName(String lastName);
+    @Query(value = "from UserDO where lastName = ?1")
+    UserDO findOneByName(String lastName);
 
 
     /**
@@ -25,8 +25,8 @@ public interface UserDAO extends JpaRepository<User, Integer>, JpaSpecificationE
      * @param id
      * @return
      */
-    @Query(value = "from User where lastName = ?1 and id=?2")
-    User findOneByNameAndId(String lastName, Integer id);
+    @Query(value = "from UserDO where lastName = ?1 and id=?2")
+    UserDO findOneByNameAndId(String lastName, Integer id);
 
     /**
      * 更新 使用jpql 依据id 更新lastName
@@ -34,7 +34,7 @@ public interface UserDAO extends JpaRepository<User, Integer>, JpaSpecificationE
      * @param lastName
      * @return
      */
-    @Query(value = "update User set lastName=?2 where id=?1")
+    @Query(value = "update UserDO set lastName=?2 where id=?1")
     @Modifying
     Integer updateUser(Integer id, String lastName);
 
@@ -44,7 +44,7 @@ public interface UserDAO extends JpaRepository<User, Integer>, JpaSpecificationE
      * @param name
      * @return user
      */
-    User findByLastName(String name);
+    UserDO findByLastName(String name);
 
     /**
      * 查询 使用spring-data-jpa 依据lastName模糊匹配 找到Users
@@ -52,7 +52,7 @@ public interface UserDAO extends JpaRepository<User, Integer>, JpaSpecificationE
      * @param name
      * @return list
      */
-    List<User> findByLastNameLike(String name);
+    List<UserDO> findByLastNameLike(String name);
 
     /**
      * 查询 使用spring-data-jpa 依据lastName精确查询 和 email 和 找到Users
@@ -61,5 +61,5 @@ public interface UserDAO extends JpaRepository<User, Integer>, JpaSpecificationE
      * @param mail
      * @return
      */
-    List<User> findByLastNameAndEmailLike(String name, String mail);
+    List<UserDO> findByLastNameAndEmailLike(String name, String mail);
 }

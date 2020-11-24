@@ -1,6 +1,5 @@
-package com.cheky.springboot.demo.entity;
+package com.cheky.springboot.demo.model;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -16,15 +15,15 @@ import java.util.Date;
 @Setter
 @Getter
 @ToString
-public class UserExpand {
+public class UserExpandDO {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne(targetEntity = User.class)
+    @OneToOne(targetEntity = UserDO.class)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
-    private User user;
+    private UserDO user;
 
     @Column(name = "last_login_date")
     private Date lastLoginDate;

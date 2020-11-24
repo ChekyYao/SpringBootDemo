@@ -1,4 +1,4 @@
-package com.cheky.springboot.demo.entity;
+package com.cheky.springboot.demo.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -16,14 +16,14 @@ import java.util.Set;
 @Setter
 @Getter
 @ToString
-public class Role {
+public class RoleDO {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @ManyToMany(mappedBy = "roles",cascade = CascadeType.ALL)
-    private Set<User> users = new HashSet<>();
+    private Set<UserDO> users = new HashSet<>();
 
     @Column(name = "role_name")
     private String roleName;

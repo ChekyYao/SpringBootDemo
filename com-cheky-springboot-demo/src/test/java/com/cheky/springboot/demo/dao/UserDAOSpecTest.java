@@ -1,6 +1,6 @@
 package com.cheky.springboot.demo.dao;
 
-import com.cheky.springboot.demo.entity.User;
+import com.cheky.springboot.demo.model.UserDO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,9 +23,9 @@ public class UserDAOSpecTest {
     //查询
     @Test
     public void testFindViaSpec() {
-        List<User> users = userDAO.findAll(new Specification<User>() {
+        List<UserDO> users = userDAO.findAll(new Specification<UserDO>() {
             @Override
-            public Predicate toPredicate(Root<User> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+            public Predicate toPredicate(Root<UserDO> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
                 var email = root.get("email");
                 Predicate predicateEmail = criteriaBuilder.equal(email, "1@1.com");
                 Path<String> lastName = root.get("lastName");
