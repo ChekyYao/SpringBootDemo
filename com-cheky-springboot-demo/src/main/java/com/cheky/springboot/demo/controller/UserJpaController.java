@@ -11,21 +11,31 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author Cheky
  * 依据RESTful 实现CRUD
+ * @author Cheky
  */
 @RequiredArgsConstructor
 @RestController()
-@RequestMapping("jpa/user")
+@RequestMapping("jpa/users")
 public class UserJpaController {
 
     private final UserService userService;
 
+    /**
+     * 依据id查询User
+     * @param id
+     * @return
+     */
     @GetMapping("{id}")
     public UserDTO getUser(@PathVariable("id") final Integer id){
         return userService.findById(id);
     }
 
+    /**
+     * 新增User
+     * @param user
+     * @return
+     */
     @PostMapping
     public ResponseEntity insertUser(@RequestBody UserDTO user){
         userService.insert(user);
@@ -39,7 +49,7 @@ public class UserJpaController {
     }
 
     @PutMapping("{id}")
-    public ResponseEntity updateUser(@PathVariable("id") final Integer id,final UserDTO user){
+    public ResponseEntity updateUser(@PathVariable("id") final Integer id, @RequestBody final UserDTO user){
         user.setId(id);
         userService.update(user);
         return ResponseEntity.status(HttpStatus.OK).build();

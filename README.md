@@ -103,6 +103,8 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 - [DAO](https://baike.baidu.com/item/DAO/2900358?fr=aladdin): 通俗来讲，就是将数据库操作都封装起来。[Reference](https://www.runoob.com/note/27029)
 
+- IOC: 简单来说就是把复杂系统分解成相互合作的对象，这些对象类通过封装以后，内部实现对外部是透明的，从而降低了解决问题的复杂度，而且可以灵活地被重用和扩展。[Reference](https://blog.csdn.net/ivan820819/article/details/79744797)
+
 - [AOP](https://baike.baidu.com/item/AOP/1332219?fr=aladdin): 通过[预编译](https://baike.baidu.com/item/预编译/3191547)方式和运行期间动态代理实现程序功能的统一维护的一种技术。[Reference](https://www.zhihu.com/question/24863332)
 
 - > META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平台的认可与解释，用来配置应用程序、扩展程序、类加载器和服务manifest.mf文件，在用jar打包时自动生成。[Reference](https://blog.csdn.net/qq_38449518/article/details/82414069)
@@ -348,6 +350,10 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 
 Repositories： 可以在上面找到 如 Druid 的Maven包。
 
+### 4.8. Groovy
+
+[官网-入口](http://www.groovy-lang.org/) | [Doc](http://www.groovy-lang.org/documentation.html) | [教程](https://www.w3cschool.cn/groovy/groovy_overview.html) | [简书](https://www.jianshu.com/p/e8dec95c4326)
+
 
 
 ## 5.实战
@@ -382,7 +388,27 @@ https://github.com/ChekyYao/SpringBootDemo
 
 ![hello mybatis](Images/emp-jpa.jpg)
 
+### 5.3. 测试工具
 
+- Postman
+
+  ![RESTful-TestTool-Postman](Images/RESTful-TestTool-Postman.jpg)
+
+- Swagger
+
+  代码详见: SwaggerConfig.java
+
+  依赖
+
+  ```xml
+  <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-boot-starter</artifactId>
+      <version>3.0.0</version>
+  </dependency>
+  ```
+
+  ![RESTful-TestTool-Swagger](Images/RESTful-TestTool-Swagger.jpg)
 
 
 
