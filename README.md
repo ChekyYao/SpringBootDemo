@@ -59,9 +59,17 @@ JVM 运行环境  (与操作系统交互)
 
 简述：分布式服务框架(RPC) 。
 
-[ZooKeeper](https://baike.baidu.com/item/zookeeper/4836397?fr=aladdin): 一个[分布式](https://baike.baidu.com/item/分布式/19276232)的，开放源码的[分布式应用程序](https://baike.baidu.com/item/分布式应用程序/9854429)协调服务，是[Google](https://baike.baidu.com/item/Google)的Chubby一个[开源](https://baike.baidu.com/item/开源/246339)的实现，是Hadoop和[Hbase](https://baike.baidu.com/item/Hbase/7670213)的重要组件。[官网-入口](https://zookeeper.apache.org/)
+- **Nacos**
 
-[RPC](https://baike.baidu.com/item/%E8%BF%9C%E7%A8%8B%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8/7854346?fromtitle=RPC&fromid=609861&fr=aladdin): 一种技术思想，像调用本地的函数一样去调远程函数。 [Reference](https://www.zhihu.com/question/25536695)
+  - [官网-入口](https://nacos.io/zh-cn/docs/quick-start.html)
+
+  - 简述阿里力推的新一代Dubbo 注册中心
+
+  - 按照官网安装并启动后，即可登陆注册中心http://127.0.0.1:8848/nacos，账号密码均为 nacos
+
+    启动服务器：startup.cmd -m standalone
+
+    关闭服务器：shutdown.cmd
 
 
 
@@ -106,6 +114,10 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 - IOC: 简单来说就是把复杂系统分解成相互合作的对象，这些对象类通过封装以后，内部实现对外部是透明的，从而降低了解决问题的复杂度，而且可以灵活地被重用和扩展。[Reference](https://blog.csdn.net/ivan820819/article/details/79744797)
 
 - [AOP](https://baike.baidu.com/item/AOP/1332219?fr=aladdin): 通过[预编译](https://baike.baidu.com/item/预编译/3191547)方式和运行期间动态代理实现程序功能的统一维护的一种技术。[Reference](https://www.zhihu.com/question/24863332)
+
+- [ZooKeeper](https://baike.baidu.com/item/zookeeper/4836397?fr=aladdin): 一个[分布式](https://baike.baidu.com/item/分布式/19276232)的，开放源码的[分布式应用程序](https://baike.baidu.com/item/分布式应用程序/9854429)协调服务，是[Google](https://baike.baidu.com/item/Google)的Chubby一个[开源](https://baike.baidu.com/item/开源/246339)的实现，是Hadoop和[Hbase](https://baike.baidu.com/item/Hbase/7670213)的重要组件。[官网-入口](https://zookeeper.apache.org/) 
+
+- [RPC](https://baike.baidu.com/item/%E8%BF%9C%E7%A8%8B%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8/7854346?fromtitle=RPC&fromid=609861&fr=aladdin): 一种技术思想，像调用本地的函数一样去调远程函数。 [Reference](https://www.zhihu.com/question/25536695)
 
 - > META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平台的认可与解释，用来配置应用程序、扩展程序、类加载器和服务manifest.mf文件，在用jar打包时自动生成。[Reference](https://blog.csdn.net/qq_38449518/article/details/82414069)
 
@@ -368,9 +380,7 @@ https://github.com/ChekyYao/Java
 
 简介：Springboot + SpringMVC + WebApi(RESTful) + SpringData(JPA) + MyBatis + Druid + JDBC + MySQL + log(slf4j)
 
-实施中...
-
-https://github.com/ChekyYao/SpringBootDemo
+https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-springboot-demo
 
 1. 配置JDBC
 
@@ -396,21 +406,30 @@ https://github.com/ChekyYao/SpringBootDemo
 
 - Swagger
 
+  [官网-入口](https://swagger.io/) | [Reference](https://www.mdeditor.tw/pl/pNUO/zh-cn)
+
   代码详见: SwaggerConfig.java
 
   依赖
-
+  
   ```xml
   <dependency>
       <groupId>io.springfox</groupId>
       <artifactId>springfox-boot-starter</artifactId>
       <version>3.0.0</version>
-  </dependency>
+</dependency>
   ```
-
+  
   ![RESTful-TestTool-Swagger](Images/RESTful-TestTool-Swagger.jpg)
+  
 
+### 5.4. 综合实践 升级为Dubbo
 
+简介：把5.2的项目升级为dubbo框架
+
+实施中...
+
+https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-dubbo-demo
 
 ## **参考文献 Reference:**
 
@@ -456,6 +475,13 @@ https://github.com/ChekyYao/SpringBootDemo
 5. 解决maven 在intellij IDEA 下载依赖包速度慢的问题
 
    尝试改为Alibaba仓，但速度无明显提升。[[Reference](https://www.jianshu.com/p/63a593700ebc)]
+   
+   
+   
+6. 配置 Java_Home 
+
+   Java_Home
+   C:\Program Files\Zulu\zulu-11\
 
 
 
