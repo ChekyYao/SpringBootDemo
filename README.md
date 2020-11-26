@@ -8,15 +8,14 @@
 
 ## 1.安装
 
-1. 安装 [11 JDK](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11) | [Doc](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) | [OpenJDK 11 (推荐)](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jdk&show-old-builds=true)
+所有工具安装包 [百度网盘](https://pan.baidu.com/s/1HVI0gBrHTzBiBdInYqFd-g) 提取码: 8dud
 
+1. 安装 [11 JDK](https://www.oracle.com/java/technologies/javase-downloads.html#JDK11) | [Doc](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) | [OpenJDK 11 (推荐)](https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=windows&architecture=x86-64-bit&package=jdk&show-old-builds=true)
 2. 安装 [IntelliJ IDEA Community Edition](https://www.jetbrains.com/zh-cn/idea/download/download-thanks.html?platform=windows&code=IIC) 
    - 安装 插件 [Spring Assistant](https://blog.csdn.net/u012860950/article/details/76146072)
    - 安装 插件 详见 4.5. Lombok
    - 安装 插件 详见 4.6. Coding Style
-
 3. 安装 MySql [Installer Version (推荐 下载最新但安装选择5.7)](https://dev.mysql.com/downloads/windows/installer/) | [Installer 教程](https://www.runoob.com/w3cnote/windows10-mysql-installer.html)；也可以单独安装 [Workbench Version](https://dev.mysql.com/downloads/file/?id=498730) 
-
 4. 环境 [Maven](https://maven.apache.org/) IDEA本身有自动捆绑的
 
 
