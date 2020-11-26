@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 /**
  * User DTO
  * @author Cheky
@@ -11,7 +13,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public class UserDTO {
+public class UserDTO implements Serializable {
     private Integer id;
 
     private String email;

@@ -22,6 +22,16 @@ public class UserController {
     private UserService userService;
 
     /**
+     * 查詢產品列表
+     *
+     * @return
+     */
+    @GetMapping
+    public String listUsers() {
+        return "Hello Dubbo!";
+    }
+
+    /**
      * 依据id查询User
      * @param id
      * @return
