@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: controller
+
+dubbo:
+  application.name: ${spring.application.name}
+  scan.basePackages: com.cheky
+  registry:
+    address: nacos://127.0.0.1:8848
+  consumer:
+    check: true  # 服务启动时检查被调用服务是否可用

@@ -12,9 +12,8 @@
     <artifactId>user-service</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>user-service-impl</module>
         <module>user-service-api</module>
+        <module>user-service-impl</module>
     </modules>
-
 
 </project>

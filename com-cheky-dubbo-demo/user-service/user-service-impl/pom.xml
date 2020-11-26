@@ -12,6 +12,14 @@
     <artifactId>user-service-impl</artifactId>
 
     <dependencies>
+        <!--MYSQL-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+            <version>8.0.13</version>
+        </dependency>
+
         <dependency>
             <groupId>com.cheky</groupId>
             <artifactId>user-service-api</artifactId>

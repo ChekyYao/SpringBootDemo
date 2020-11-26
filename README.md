@@ -431,6 +431,8 @@ https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-springboot-demo
 
 https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-dubbo-demo
 
+![Nacos Test](Images\nacos-test.jpg)
+
 ## **参考文献 Reference:**
 
 [^1]:  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)

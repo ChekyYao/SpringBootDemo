@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: user-service
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: JavaDemo
+    password: 123
+    url: jdbc:mysql://localhost:3306/testjob?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update #update or create table
+    show-sql: true #show the sql on the console
+
+
+dubbo:
+  application.name: ${spring.application.name}
+  scan.basePackages: com.cheky
+  registry:
+    address: nacos://127.0.0.1:8848
+  protocol:
+    name: dubbo
+    port: 20885

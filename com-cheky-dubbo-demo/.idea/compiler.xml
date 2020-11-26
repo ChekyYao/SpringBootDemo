@@ -11,5 +11,6 @@
         <module name="user-service-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
