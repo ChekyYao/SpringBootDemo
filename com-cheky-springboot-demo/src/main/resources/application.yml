@@ -1,11 +1,13 @@
 spring:
+  profiles:
+    active: test
+
   datasource:
     username: JavaDemo
     password: 123
-    url: jdbc:mysql://localhost:3306/testjob?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     filter: stat,wall,log4j
-
+    
     #config druid params
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -35,11 +37,5 @@ spring:
       max-pool-prepared-statement-per-connection-size: 20
       use-global-data-source-stat: true
       connect-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-
-  #config JPA
-  jpa:
-    hibernate:
-      ddl-auto: update #update or create table
-    show-sql: true #show the sql on the console
 
 

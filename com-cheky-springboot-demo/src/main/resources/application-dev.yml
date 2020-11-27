@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_demo?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+
+  #config JPA
+  jpa:
+    hibernate:
+      ddl-auto: update #update or create table
+    show-sql: true #show the sql on the console
+
+server:
+  port: 8888
+
+

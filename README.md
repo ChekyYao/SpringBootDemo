@@ -94,7 +94,7 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 - Druid [官网-入口](https://druid.apache.org/docs/latest/design/) | [Doc](https://druid.apache.org/docs/latest/design/) | [官方-GitHub](https://github.com/alibaba/druid/) | [官方-WIKI](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
-- MySQL [教程](https://www.runoob.com/mysql/mysql-install.html)
+- MySQL [教程](https://www.runoob.com/mysql/mysql-install.html) | [Vedio 1 (推荐)](https://www.bilibili.com/video/BV1pf4y1v7mK?p=15)
 
   DQL, DML, DDL, DCL 的[概念和区别](https://www.cnblogs.com/fan-yuan/p/7879353.html)
 
