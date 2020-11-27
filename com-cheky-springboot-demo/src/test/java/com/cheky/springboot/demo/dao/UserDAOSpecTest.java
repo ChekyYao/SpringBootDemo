@@ -1,6 +1,8 @@
 package com.cheky.springboot.demo.dao;
 
+import com.cheky.springboot.demo.common.UserCommon;
 import com.cheky.springboot.demo.model.UserDO;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,11 +17,7 @@ import java.util.List;
  * 动态条件处理
  */
 @SpringBootTest
-public class UserDAOSpecTest {
-
-    @Autowired
-    private UserDAO userDAO;
-
+public class UserDAOSpecTest extends BaseUserDAOTest{
     //查询
     @Test
     public void testFindViaSpec() {
@@ -27,22 +25,22 @@ public class UserDAOSpecTest {
             @Override
             public Predicate toPredicate(Root<UserDO> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
                 var email = root.get("email");
-                Predicate predicateEmail = criteriaBuilder.equal(email, "1@1.com");
+                Predicate predicateEmail = criteriaBuilder.equal(email, "139@163.com");
                 Path<String> lastName = root.get("lastName");
-                var predicateLastName = criteriaBuilder.like(lastName,"J%");
+                var predicateLastName = criteriaBuilder.like(lastName,"C%");
                 var predicate = criteriaBuilder.and(predicateEmail,predicateLastName);
                 return predicate;
             }
         });
 
-        printUsers(users);
+        assert users.size() > 0;
     }
 
     //排序
     @Test
     public void testFindWithSort() {
         var users= userDAO.findAll(Sort.by(Sort.Direction.DESC, "lastName"));
-        printUsers(users);
+        assert users.size() > 0;
     }
 
     //分页
@@ -50,15 +48,6 @@ public class UserDAOSpecTest {
     public void testFindWithPage() {
         var pageRequest = PageRequest.of(0,2);
         var pageResult = userDAO.findAll(pageRequest);
-        printUsers(pageResult.getContent());
-        System.out.println("total count of elements in db = " + pageResult.getTotalElements());
-        System.out.println("total count of elements in current page = " + pageResult.getNumberOfElements());
-        System.out.println("total pages = " + pageRequest.getPageSize());
-    }
-
-    private void printUsers(List<? extends Object> objects) {
-        for (var object : objects){
-            System.out.println(object);
-        }
+        assert pageResult.getNumberOfElements() < 3;
     }
 }
