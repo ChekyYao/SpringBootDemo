@@ -116,6 +116,8 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 - [ZooKeeper](https://baike.baidu.com/item/zookeeper/4836397?fr=aladdin): 一个[分布式](https://baike.baidu.com/item/分布式/19276232)的，开放源码的[分布式应用程序](https://baike.baidu.com/item/分布式应用程序/9854429)协调服务，是[Google](https://baike.baidu.com/item/Google)的Chubby一个[开源](https://baike.baidu.com/item/开源/246339)的实现，是Hadoop和[Hbase](https://baike.baidu.com/item/Hbase/7670213)的重要组件。[官网-入口](https://zookeeper.apache.org/) 
 
+- [Netty](https://baike.baidu.com/item/Netty/10061624?fr=aladdin): 一个基于NIO的客户、服务器端的编程框架。相当于简化和流线化了网络应用的编程开发过程，例如：基于TCP和UDP的socket服务开发。
+
 - [RPC](https://baike.baidu.com/item/%E8%BF%9C%E7%A8%8B%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8/7854346?fromtitle=RPC&fromid=609861&fr=aladdin): 一种技术思想，像调用本地的函数一样去调远程函数。 [Reference](https://www.zhihu.com/question/25536695)
 
 - > META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平台的认可与解释，用来配置应用程序、扩展程序、类加载器和服务manifest.mf文件，在用jar打包时自动生成。[Reference](https://blog.csdn.net/qq_38449518/article/details/82414069)
