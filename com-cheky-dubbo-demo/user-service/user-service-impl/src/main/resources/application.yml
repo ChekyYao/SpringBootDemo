@@ -3,13 +3,13 @@ spring:
     name: user-service
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    username: JavaDemo
-    password: 123
-    url: jdbc:mysql://localhost:3306/testjob?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/spring_boot_test?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
   jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
+    #database-platform: org.hibernate.dialect.MySQLDialect # 使用后DAO会运行异常
     hibernate:
-      ddl-auto: update #update or create table
+      ddl-auto: create #update or create table
     show-sql: true #show the sql on the console
 
 
