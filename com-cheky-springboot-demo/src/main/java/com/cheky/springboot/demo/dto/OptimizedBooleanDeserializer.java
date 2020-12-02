@@ -1,7 +1,6 @@
 package com.cheky.springboot.demo.dto;
 
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 
@@ -9,13 +8,12 @@ import java.io.IOException;
 
 public class OptimizedBooleanDeserializer extends JsonDeserializer<Boolean> {
 
-    @Override
-    public Boolean deserialize(JsonParser jsonParser,
-                               DeserializationContext deserializationContext) throws
-            IOException, JsonProcessingException {
+    private final static String ZERO = "0";
 
+    @Override
+    public Boolean deserialize(JsonParser jsonParser, DeserializationContext deserializationContext)
+            throws IOException {
         String text = jsonParser.getText();
-        if("0".equals(text)) return false;
-        return true;
+        return !ZERO.equals(text);
     }
 }

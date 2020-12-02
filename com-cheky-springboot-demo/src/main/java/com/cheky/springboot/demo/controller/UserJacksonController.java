@@ -15,7 +15,7 @@ import java.util.Date;
  * @author Cheky
  */
 @RestController()
-@RequestMapping("jpa/users")
+@RequestMapping("jackson/users")
 public class UserJacksonController {
 
     /**
@@ -49,9 +49,10 @@ public class UserJacksonController {
     private UserJacksonDTO createUser(Integer id){
         var result = new UserJacksonDTO();
         result.setId(id);
-        result.setBirthDate(new Date(2000,12,13));
+        result.setBirthDate(new Date());
         result.setEmail("139@163.com");
         result.setLastName("Cheky");
+        result.setEnabled(true);
         return  result;
     }
 }
