@@ -363,9 +363,19 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 
 Repositories： 可以在上面找到 如 Druid 的Maven包。
 
+
+
+- **nexus**是一个强大的maven仓库管理器,它极大的简化了本地内部仓库的维护和外部仓库的访问.[Reference](https://blog.csdn.net/ytm15732625529/article/details/81159425)
+
+
+
 ### 4.8. Groovy
 
 [官网-入口](http://www.groovy-lang.org/) | [Doc](http://www.groovy-lang.org/documentation.html) | [教程](https://www.w3cschool.cn/groovy/groovy_overview.html) | [简书](https://www.jianshu.com/p/e8dec95c4326)
+
+### 4.9. Jackson
+
+[使用详解 重点看七 Jackson注解](https://juejin.cn/post/6844904166809157639#heading-1) | [GitHub](https://github.com/FasterXML/jackson)
 
 
 
