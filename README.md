@@ -438,11 +438,19 @@ https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-springboot-demo
 
 简介：把5.2的项目升级为dubbo框架
 
-实施中...
-
 https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-dubbo-demo
 
 ![Nacos Test](Images\nacos-test.jpg)
+
+
+
+### 5.5. 扩展
+
+Liquibase：[官网-入口](https://docs.liquibase.com/home.html) | [Reference](https://blog.csdn.net/qq_39508627/article/details/89883549) | [Reference2](https://juejin.cn/post/6844903808078708743)
+
+
+
+
 
 ## **参考文献 Reference:**
 
@@ -495,6 +503,12 @@ https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-dubbo-demo
 
    Java_Home
    C:\Program Files\Zulu\zulu-11\
+   
+   
+   
+7. 配置 mysql 环境 path
+
+   C:\Program Files\MySQL\MySQL Server 8.0\bin
 
 
 

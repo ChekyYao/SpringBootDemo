@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/spring_boot_test?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    filter: stat,wall,log4j
+  #reference https://blog.csdn.net/qq_39508627/article/details/89883549
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.xml
