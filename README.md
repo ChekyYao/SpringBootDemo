@@ -448,7 +448,7 @@ https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-dubbo-demo
 
 Liquibase：[官网-入口](https://docs.liquibase.com/home.html) | [Reference](https://blog.csdn.net/qq_39508627/article/details/89883549) | [Reference2](https://juejin.cn/post/6844903808078708743)
 
-
+XXL-JOB：[GitHub](https://github.com/xuxueli/xxl-job) | [Doc](https://www.xuxueli.com/xxl-job/#《分布式任务调度平台XXL-JOB》) | [Vedio](https://www.bilibili.com/video/BV1oC4y147iG) 
 
 
 
