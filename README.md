@@ -122,7 +122,10 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 - > META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平台的认可与解释，用来配置应用程序、扩展程序、类加载器和服务manifest.mf文件，在用jar打包时自动生成。[Reference](https://blog.csdn.net/qq_38449518/article/details/82414069)
 
-
+- JSP（全称Java Server Pages）是由 Sun Microsystems 公司倡导和许多公司参与共同创建的一种使软件开发者可以响应客户端请求，而动态生成 HTML、XML 或其他格式文档的Web网页的技术标准。[Reference](https://www.runoob.com/jsp/jsp-tutorial.html)
+- [Tomcat](https://baike.baidu.com/item/tomcat/255751?fr=aladdin) 服务器是一个免费的开放源代码的Web 应用服务器，属于轻量级应用[服务器](https://baike.baidu.com/item/服务器)，在中小型系统和并发访问用户不是很多的场合下被普遍使用，是开发和调试JSP 程序的首选。
+- [Jetty](https://baike.baidu.com/item/jetty/370234?fr=aladdin) 是一个开源的servlet容器，它为基于Java的web容器，例如JSP和servlet提供运行环境。
+- Jetty 相对 Tomcat 更轻量级，[区别](https://blog.csdn.net/swebin/article/details/93883268)
 
 ### 3.3. WebApi编码风格RESTful[CRUD](https://baike.baidu.com/item/crud/3606157?fr=aladdin)
 
