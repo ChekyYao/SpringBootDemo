@@ -70,7 +70,9 @@ JVM 运行环境  (与操作系统交互)
 
     关闭服务器：shutdown.cmd
 
+- **Gateway**
 
+  Dubbo想要个网关怎么办？[试试整合Spring Cloud Gateway](https://developer.aliyun.com/article/766073)
 
 #### 3.2.2. ORM 之 MyBatis
 
@@ -116,15 +118,18 @@ JPA-SPEC [教程](https://www.w3cschool.cn/jpaspec/)
 
 - [ZooKeeper](https://baike.baidu.com/item/zookeeper/4836397?fr=aladdin): 一个[分布式](https://baike.baidu.com/item/分布式/19276232)的，开放源码的[分布式应用程序](https://baike.baidu.com/item/分布式应用程序/9854429)协调服务，是[Google](https://baike.baidu.com/item/Google)的Chubby一个[开源](https://baike.baidu.com/item/开源/246339)的实现，是Hadoop和[Hbase](https://baike.baidu.com/item/Hbase/7670213)的重要组件。[官网-入口](https://zookeeper.apache.org/) 
 
-- [Netty](https://baike.baidu.com/item/Netty/10061624?fr=aladdin): 一个基于NIO的客户、服务器端的编程框架。相当于简化和流线化了网络应用的编程开发过程，例如：基于TCP和UDP的socket服务开发。
+- [Netty](https://baike.baidu.com/item/Netty/10061624?fr=aladdin): 一个基于NIO的客户、服务器端的编程框架。相当于简化和流线化了网络应用的编程开发过程，例如：基于TCP和UDP的socket服务开发。[Reference](https://www.jianshu.com/p/b9f3f6a16911)
 
 - [RPC](https://baike.baidu.com/item/%E8%BF%9C%E7%A8%8B%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8/7854346?fromtitle=RPC&fromid=609861&fr=aladdin): 一种技术思想，像调用本地的函数一样去调远程函数。 [Reference](https://www.zhihu.com/question/25536695)
 
 - > META-INF: 相当于一个信息包，目录中的文件和目录获得Java 2平台的认可与解释，用来配置应用程序、扩展程序、类加载器和服务manifest.mf文件，在用jar打包时自动生成。[Reference](https://blog.csdn.net/qq_38449518/article/details/82414069)
 
 - JSP（全称Java Server Pages）是由 Sun Microsystems 公司倡导和许多公司参与共同创建的一种使软件开发者可以响应客户端请求，而动态生成 HTML、XML 或其他格式文档的Web网页的技术标准。[Reference](https://www.runoob.com/jsp/jsp-tutorial.html)
+
 - [Tomcat](https://baike.baidu.com/item/tomcat/255751?fr=aladdin) 服务器是一个免费的开放源代码的Web 应用服务器，属于轻量级应用[服务器](https://baike.baidu.com/item/服务器)，在中小型系统和并发访问用户不是很多的场合下被普遍使用，是开发和调试JSP 程序的首选。
+
 - [Jetty](https://baike.baidu.com/item/jetty/370234?fr=aladdin) 是一个开源的servlet容器，它为基于Java的web容器，例如JSP和servlet提供运行环境。
+
 - Jetty 相对 Tomcat 更轻量级，[区别](https://blog.csdn.net/swebin/article/details/93883268)
 
 ### 3.3. WebApi编码风格RESTful[CRUD](https://baike.baidu.com/item/crud/3606157?fr=aladdin)
