@@ -5,10 +5,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 
 import java.util.List;
 
-public interface UserDAO extends JpaRepository<UserDO, Integer>, JpaSpecificationExecutor<UserDO> {
+public interface UserDAO extends JpaRepository<UserDO, Integer>, JpaSpecificationExecutor<UserDO>, QuerydslPredicateExecutor<UserDAO> {
 
     /**
      * 查询 使用jpql 依据lastName 找到User

@@ -3,6 +3,7 @@ package com.cheky.springboot.demo.service;
 import com.cheky.springboot.demo.dao.UserDAO;
 import com.cheky.springboot.demo.dto.UserDTO;
 import com.cheky.springboot.demo.model.UserDO;
+import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -16,12 +17,15 @@ public class UserService {
 
     private final UserDAO dao;
 
+    private JPAQueryFactory queryFactory;
+
     public List<UserDTO> findAll() {
         final List<UserDO> dataList = dao.findAll();
         return dataList.stream().map(data -> ConvertDOtoDTO(data)).collect(Collectors.toList());
     }
 
     public UserDTO findById(final Integer id) {
+
         final Optional<UserDO> data = dao.findById(id);
 
         if (data.isEmpty()) {

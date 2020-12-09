@@ -458,6 +458,8 @@ Liquibase：[官网-入口](https://docs.liquibase.com/home.html) | [Reference](
 
 XXL-JOB：[GitHub](https://github.com/xuxueli/xxl-job) | [Doc](https://www.xuxueli.com/xxl-job/#《分布式任务调度平台XXL-JOB》) | [Vedio](https://www.bilibili.com/video/BV1oC4y147iG) 
 
+Querydsl：[官网入口](http://www.querydsl.com/) | [GitHub](https://github.com/querydsl/querydsl)
+
 
 
 ## **参考文献 Reference:**
