@@ -1,10 +1,7 @@
 package com.cheky.springboot.demo.dao;
 
-import com.cheky.springboot.demo.common.UserCommon;
 import com.cheky.springboot.demo.model.UserDO;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;

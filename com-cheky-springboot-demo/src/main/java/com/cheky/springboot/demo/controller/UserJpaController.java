@@ -1,11 +1,8 @@
 package com.cheky.springboot.demo.controller;
 
-import com.cheky.springboot.demo.dao.UserDAO;
 import com.cheky.springboot.demo.dto.UserDTO;
-import com.cheky.springboot.demo.model.UserDO;
 import com.cheky.springboot.demo.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
