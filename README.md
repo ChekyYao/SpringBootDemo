@@ -377,16 +377,6 @@ Repositories： 可以在上面找到 如 Druid 的Maven包。
 
 
 
-### 4.8. Groovy
-
-[官网-入口](http://www.groovy-lang.org/) | [Doc](http://www.groovy-lang.org/documentation.html) | [教程](https://www.w3cschool.cn/groovy/groovy_overview.html) | [简书](https://www.jianshu.com/p/e8dec95c4326)
-
-### 4.9. Jackson
-
-[使用详解 重点看七 Jackson注解](https://juejin.cn/post/6844904166809157639#heading-1) | [GitHub](https://github.com/FasterXML/jackson)
-
-
-
 ## 5.实战
 
 ### 5.1. 学习Templates
@@ -454,13 +444,17 @@ https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-dubbo-demo
 
 ### 5.5. 扩展
 
+Groovy：[官网-入口](http://www.groovy-lang.org/) | [Doc](http://www.groovy-lang.org/documentation.html) | [教程](https://www.w3cschool.cn/groovy/groovy_overview.html) | [简书](https://www.jianshu.com/p/e8dec95c4326)
+
+Jackson：[使用详解 重点看七 Jackson注解](https://juejin.cn/post/6844904166809157639#heading-1) | [GitHub](https://github.com/FasterXML/jackson)
+
 Liquibase：[官网-入口](https://docs.liquibase.com/home.html) | [Reference](https://blog.csdn.net/qq_39508627/article/details/89883549) | [Reference2](https://juejin.cn/post/6844903808078708743)
 
 XXL-JOB：[GitHub](https://github.com/xuxueli/xxl-job) | [Doc](https://www.xuxueli.com/xxl-job/#《分布式任务调度平台XXL-JOB》) | [Vedio](https://www.bilibili.com/video/BV1oC4y147iG) 
 
 Querydsl：[官网入口](http://www.querydsl.com/) | [GitHub](https://github.com/querydsl/querydsl)
 
-visualvm：[GitHub](https://github.com/oracle/visualvm/releases) | [配置及其安装](https://blog.csdn.net/qq_28509737/article/details/106541693)
+visualvm：[GitHub](https://github.com/oracle/visualvm/releases) | [配置及其安装](https://blog.csdn.net/qq_28509737/article/details/106541693) | [Vedio](https://www.bilibili.com/video/BV1N741127Wt)
 
 
 
