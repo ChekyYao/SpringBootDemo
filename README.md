@@ -460,6 +460,8 @@ XXL-JOB：[GitHub](https://github.com/xuxueli/xxl-job) | [Doc](https://www.xuxue
 
 Querydsl：[官网入口](http://www.querydsl.com/) | [GitHub](https://github.com/querydsl/querydsl)
 
+visualvm：[GitHub](https://github.com/oracle/visualvm/releases) | [配置及其安装](https://blog.csdn.net/qq_28509737/article/details/106541693)
+
 
 
 ## **参考文献 Reference:**
