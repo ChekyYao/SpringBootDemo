@@ -97,6 +97,13 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- 使用图形验证码 -->
+		<dependency>
+			<groupId>com.github.whvcse</groupId>
+			<artifactId>easy-captcha</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+
 		<!-- Spring boot 默认使用 Jackson 所以不用加入此依赖 -->
 		<!--
 		<dependency>

@@ -454,6 +454,8 @@ XXL-JOB：[GitHub](https://github.com/xuxueli/xxl-job) | [Doc](https://www.xuxue
 
 Querydsl：[官网入口](http://www.querydsl.com/) | [GitHub](https://github.com/querydsl/querydsl)
 
+easy-captcha：[GitHub](https://github.com/whvcse/EasyCaptcha) 图形验证码
+
 visualvm：[GitHub](https://github.com/oracle/visualvm/releases) | [配置及其安装](https://blog.csdn.net/qq_28509737/article/details/106541693) | [Vedio](https://www.bilibili.com/video/BV1N741127Wt)
 
 
