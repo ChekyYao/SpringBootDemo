@@ -456,6 +456,8 @@ Querydsl：[官网入口](http://www.querydsl.com/) | [GitHub](https://github.co
 
 easy-captcha：[GitHub](https://github.com/whvcse/EasyCaptcha) 图形验证码
 
+thymeleaf：用来开发Web和独立环境项目的服务器端的Java模版引擎 [官网](https://www.thymeleaf.org/) | [入门](https://www.jianshu.com/p/ac8201031334)
+
 visualvm：[GitHub](https://github.com/oracle/visualvm/releases) | [配置及其安装](https://blog.csdn.net/qq_28509737/article/details/106541693) | [Vedio](https://www.bilibili.com/video/BV1N741127Wt)
 
 
