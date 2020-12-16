@@ -104,6 +104,14 @@
 			<version>1.6.2</version>
 		</dependency>
 
+		<!--springboot整合thymeleaf依赖-->
+		<!--thymeleaf-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>2.1.0.RELEASE</version>
+		</dependency>
+
 		<!-- Spring boot 默认使用 Jackson 所以不用加入此依赖 -->
 		<!--
 		<dependency>
