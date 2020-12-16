@@ -11,4 +11,4 @@ spring:
 server:
   port: 8080
 
-
+management.endpoints.web.exposure.include: "*" #暴露数据 以便后续监控
