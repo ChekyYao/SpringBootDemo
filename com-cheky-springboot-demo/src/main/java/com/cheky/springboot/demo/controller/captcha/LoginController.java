@@ -1,4 +1,4 @@
-package com.cheky.springboot.demo.controller;
+package com.cheky.springboot.demo.controller.captcha;
 
 import com.wf.captcha.utils.CaptchaUtil;
 import org.springframework.web.bind.annotation.PostMapping;

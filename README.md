@@ -460,6 +460,10 @@ thymeleaf：用来开发Web和独立环境项目的服务器端的Java模版引�
 
 visualvm：[GitHub](https://github.com/oracle/visualvm/releases) | [配置及其安装](https://blog.csdn.net/qq_28509737/article/details/106541693) | [Vedio](https://www.bilibili.com/video/BV1N741127Wt)
 
+Swagger：[官网-入口](https://swagger.io/) | [Vedio](https://www.bilibili.com/video/BV1Y441197Lw) | [入门 1](https://www.mdeditor.tw/pl/pNUO/zh-cn) | [入门 2](https://blog.csdn.net/weixin_39396822/article/details/84631211) 
+
+Swagger Open API：[官网-Spec](https://swagger.io/docs/specification/about/) | [Open API 参考](https://app.swaggerhub.com/apis-docs/ChekyYao/Demo/1.0.1-oas3) | [Open API map](https://openapi-map.apihandyman.io/)
+
 监控
 
 - micrometer：指标采集；  [官网](https://micrometer.io/) | [Docs](https://micrometer.io/docs) | [入门 1](https://www.cnblogs.com/cjsblog/p/11556029.html) | [入门 2](https://blog.csdn.net/weixin_38569499/article/details/85344317) | [Vedio 1](https://www.bilibili.com/video/BV1Na4y1v7Wz) | [Vedio 2](https://www.bilibili.com/video/BV1sC4y1873R?p=13)
