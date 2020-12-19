@@ -467,12 +467,10 @@ Swagger Open API：[官网-Spec](https://swagger.io/docs/specification/about/) |
 监控
 
 - micrometer：指标采集；  [官网](https://micrometer.io/) | [Docs](https://micrometer.io/docs) | [入门 1](https://www.cnblogs.com/cjsblog/p/11556029.html) | [入门 2](https://blog.csdn.net/weixin_38569499/article/details/85344317) | [Vedio 1](https://www.bilibili.com/video/BV1Na4y1v7Wz) | [Vedio 2](https://www.bilibili.com/video/BV1sC4y1873R?p=13)
-
 - spring boot actuators: 指标获取并发布；
-
 - prometheus：指标存储； [官网](https://prometheus.io/download/)
-
-- grafana： 指标查询展示； [官网](https://grafana.com/grafana/download?platform=windows) | [Reference](https://blog.csdn.net/weixin_44606217/article/details/96481191)
+- grafana： 指标查询展示； [官网](https://grafana.com/grafana/download?platform=windows) | [插件指令](https://www.jianshu.com/p/0d82c7ccc85a?from=groupmessage&isappinstalled=0)| [Reference](https://blog.csdn.net/weixin_44606217/article/details/96481191) 
+- JMeter: 压测工具；[官网](https://jmeter.apache.org/) | [Vedio](https://www.bilibili.com/video/BV1ny4y1q7KA)
 
 ## **参考文献 Reference:**
 
