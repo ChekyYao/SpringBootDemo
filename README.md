@@ -472,6 +472,8 @@ Swagger Open API：[官网-Spec](https://swagger.io/docs/specification/about/) |
 - grafana： 指标查询展示； [官网](https://grafana.com/grafana/download?platform=windows) | [插件指令](https://www.jianshu.com/p/0d82c7ccc85a?from=groupmessage&isappinstalled=0)| [Reference](https://blog.csdn.net/weixin_44606217/article/details/96481191) 
 - JMeter: 压测工具；[官网](https://jmeter.apache.org/) | [Vedio](https://www.bilibili.com/video/BV1ny4y1q7KA)
 
+org.apache.poi poi-ooxml：处理Excel [官网](https://poi.apache.org/index.html) | [官网 Docs](https://poi.apache.org/apidocs/index.html) | [入门](https://www.cnblogs.com/pomelo-lemon/p/11395416.html)
+
 ## **参考文献 Reference:**
 
 [^1]:  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)
