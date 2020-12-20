@@ -1,5 +1,6 @@
 package com.cheky.springboot.demo.model;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -14,6 +15,7 @@ import javax.persistence.*;
 @Setter
 @Getter
 @ToString
+@Data
 public class EmployeeDO {
 
     @Id

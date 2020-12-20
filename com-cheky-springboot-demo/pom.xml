@@ -149,6 +149,13 @@
 			<version>4.12</version>
 		</dependency>
 
+		<!-- 使用 jodd 开发工具-->
+		<dependency>
+			<groupId>org.jodd</groupId>
+			<artifactId>jodd-json</artifactId>
+			<version>6.0.2</version>
+		</dependency>
+
 		<!-- 使用 运行时动态生成java class的类库-->
 		<!-- 此 pom 内部已有此依赖项了，所以不用再重复导入此依赖项，否则运行异常-->
 		<!--
