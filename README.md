@@ -474,6 +474,8 @@ Swagger Open API：[官网-Spec](https://swagger.io/docs/specification/about/) |
 
 org.apache.poi poi-ooxml：处理Excel [官网](https://poi.apache.org/index.html) | [官网 Docs](https://poi.apache.org/apidocs/index.html) | [入门](https://www.cnblogs.com/pomelo-lemon/p/11395416.html)
 
+net.bytebuddy：一个可以在运行时动态生成java class的类库。 [入门](https://zhuanlan.zhihu.com/p/151843984)
+
 ## **参考文献 Reference:**
 
 [^1]:  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)
