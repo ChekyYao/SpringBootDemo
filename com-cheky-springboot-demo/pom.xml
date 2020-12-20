@@ -155,6 +155,13 @@
 			<artifactId>jodd-json</artifactId>
 			<version>6.0.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jodd/jodd-http -->
+		<dependency>
+			<groupId>org.jodd</groupId>
+			<artifactId>jodd-http</artifactId>
+			<version>6.0.3</version>
+		</dependency>
+
 
 		<!-- 使用 运行时动态生成java class的类库-->
 		<!-- 此 pom 内部已有此依赖项了，所以不用再重复导入此依赖项，否则运行异常-->

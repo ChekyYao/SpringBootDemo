@@ -479,6 +479,7 @@ net.bytebuddy：一个可以在运行时动态生成java class的类库。 [入�
 jodd
 
 - json：[官网](https://json.jodd.org/)
+- http：[官网](https://http.jodd.org/using-the-client)
 
 ## **参考文献 Reference:**
 
