@@ -480,6 +480,7 @@ jodd
 
 - json：[官网](https://json.jodd.org/)
 - http：[官网](https://http.jodd.org/using-the-client)
+- bean：[官网](https://util.jodd.org/beanutil/beanutil) | [入门](https://www.it610.com/article/1305800703767252992.htm)
 
 ## **参考文献 Reference:**
 
