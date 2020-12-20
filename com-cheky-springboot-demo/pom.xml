@@ -149,6 +149,21 @@
 			<version>4.12</version>
 		</dependency>
 
+		<!-- 使用 运行时动态生成java class的类库-->
+		<!-- 此 pom 内部已有此依赖项了，所以不用再重复导入此依赖项，否则运行异常-->
+		<!--
+		<dependency>
+			<groupId>net.bytebuddy</groupId>
+			<artifactId>byte-buddy-agent</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.bytebuddy</groupId>
+			<artifactId>byte-buddy</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+		-->
+
 		<!-- Spring boot 默认使用 Jackson 所以不用加入此依赖 -->
 		<!--
 		<dependency>
