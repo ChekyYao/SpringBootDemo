@@ -488,6 +488,9 @@ jodd
 
 Xml
 
+- org.dom4j：dom4j 是一个Java的XML API，是jdom的升级品，用来读写XML文件的。[百科](https://baike.baidu.com/item/dom4j/828750?fr=aladdin) | [GitHub](https://github.com/dom4j/dom4j) | [教程1](https://blog.csdn.net/qq_41860497/article/details/84339091) | [教程2](https://www.cnblogs.com/frank223/p/11836294.html)
+  - 注意： dom4j 依赖 jaxen
+- jaxen：jaxen 一个开源的XPath库。[GitHub](https://github.com/jaxen-xpath/jaxen)
 - xmlunit：便捷的校验XML。 [官网](https://www.xmlunit.org/) | [Reference 1](https://zhk.me/618.html) | [Reference 2](https://blog.csdn.net/cuxiong8996/article/details/107155432/) 
 
 

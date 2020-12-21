@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <users>
+        <user id="1" name="cheky"></user>
+        <user id="2" name="cheuk"></user>
+        <user id="3" name="oho">will be deleted</user>
+        <user id="4" name="check"></user>
+    </users>
+</root>

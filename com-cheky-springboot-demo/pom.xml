@@ -201,7 +201,17 @@
 			<version>1.6</version>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- 使用 dom4j -->
+		<dependency>
+			<groupId>org.dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>2.1.3</version>
+		</dependency>
+		<!-- 使用 dom4j 进行xpath 需要加入此依赖，否则执行异常-->
+		<dependency>
+			<groupId>jaxen</groupId>
+			<artifactId>jaxen</artifactId>
+		</dependency>
 
 		<!-- 使用 运行时动态生成java class的类库-->
 		<!-- 此 pom 内部已有此依赖项了，所以不用再重复导入此依赖项，否则运行异常-->
