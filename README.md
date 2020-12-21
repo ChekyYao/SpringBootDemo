@@ -493,6 +493,8 @@ Xml
 - jaxen：jaxen 一个开源的XPath库。[GitHub](https://github.com/jaxen-xpath/jaxen)
 - xmlunit：便捷的校验XML。 [官网](https://www.xmlunit.org/) | [Reference 1](https://zhk.me/618.html) | [Reference 2](https://blog.csdn.net/cuxiong8996/article/details/107155432/) 
 
+Hutool：一个Java工具包。[官网](https://www.hutool.cn/) | [Reference](https://www.toutiao.com/i6771298851430072844/)
+
 
 
 ## **参考文献 Reference:**

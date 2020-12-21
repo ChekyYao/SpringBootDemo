@@ -213,6 +213,26 @@
 			<artifactId>jaxen</artifactId>
 		</dependency>
 
+		<!--使用 hutool -->
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.0.7</version>
+		</dependency>
+		<!-- 上面已经加过依赖项的，故不用重复加载 -->
+		<!--
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.17</version>
+		</dependency>
+		-->
+
 		<!-- 使用 运行时动态生成java class的类库-->
 		<!-- 此 pom 内部已有此依赖项了，所以不用再重复导入此依赖项，否则运行异常-->
 		<!--
