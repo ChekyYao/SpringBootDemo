@@ -474,6 +474,8 @@ Swagger Open API：[官网-Spec](https://swagger.io/docs/specification/about/) |
 
 org.apache.poi poi-ooxml：处理Excel [官网](https://poi.apache.org/index.html) | [官网 Docs](https://poi.apache.org/apidocs/index.html) | [入门](https://www.cnblogs.com/pomelo-lemon/p/11395416.html)
 
+org.apache.tika：Tika 是一个内容抽取的工具集合 (a toolkit for text extracting) 。它集成了 POI 和 Pdfbox，并且为文本抽取工作提供了一个统一的界面。其次，Tika 也提供了便利的扩展 API，用来丰富其对第三方文件格式的支持。[官网](https://tika.apache.org/) | [入门 1](https://blog.csdn.net/oMaoYanEr/article/details/105011172) | [入门 2](https://blog.csdn.net/chengyuqiang/article/details/85295902)
+
 net.bytebuddy：一个可以在运行时动态生成java class的类库。 [入门](https://zhuanlan.zhihu.com/p/151843984)
 
 io.jsonwebtoken jjwt：JJWT是一个提供端到端的JWT创建和验证的Java库。 [官网](https://jwt.io/) | [入门 1](https://www.cnblogs.com/cndarren/p/11518443.html) | [入门 2](https://www.cnblogs.com/loveer/p/11429111.html)
