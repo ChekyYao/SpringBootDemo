@@ -213,6 +213,12 @@
 			<artifactId>jaxen</artifactId>
 		</dependency>
 
+		<!--邮件模块依赖-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+
 		<!--使用 hutool -->
 		<dependency>
 			<groupId>cn.hutool</groupId>

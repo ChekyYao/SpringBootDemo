@@ -495,6 +495,8 @@ Xml
 
 Hutool：一个Java工具包。[官网](https://www.hutool.cn/) | [Reference](https://www.toutiao.com/i6771298851430072844/)
 
+spring-boot-starter-mail：关键类 JavaMailSender [入门 1](https://blog.csdn.net/qq_37745470/article/details/89094227) | [入门 2](https://www.cnblogs.com/zhangyinhua/p/9277684.html) 
+
 
 
 ## **参考文献 Reference:**
