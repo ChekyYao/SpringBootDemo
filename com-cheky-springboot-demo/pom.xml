@@ -194,6 +194,15 @@
 			<version>1.20</version>
 		</dependency>
 
+		<!-- 使用 xmlunit -->
+		<dependency>
+			<groupId>xmlunit</groupId>
+			<artifactId>xmlunit</artifactId>
+			<version>1.6</version>
+			<scope>test</scope>
+		</dependency>
+
+
 		<!-- 使用 运行时动态生成java class的类库-->
 		<!-- 此 pom 内部已有此依赖项了，所以不用再重复导入此依赖项，否则运行异常-->
 		<!--

@@ -486,6 +486,12 @@ jodd
 - http：[官网](https://http.jodd.org/using-the-client)
 - bean：[官网](https://util.jodd.org/beanutil/beanutil) | [入门](https://www.it610.com/article/1305800703767252992.htm)
 
+Xml
+
+- xmlunit：便捷的校验XML。 [官网](https://www.xmlunit.org/) | [Reference 1](https://zhk.me/618.html) | [Reference 2](https://blog.csdn.net/cuxiong8996/article/details/107155432/) 
+
+
+
 ## **参考文献 Reference:**
 
 [^1]:  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)
