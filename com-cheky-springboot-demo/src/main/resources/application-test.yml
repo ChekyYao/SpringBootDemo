@@ -12,3 +12,7 @@ server:
   port: 8080
 
 management.endpoints.web.exposure.include: "*" #暴露数据 以便后续监控
+
+jwt:
+  secret: JO6HN3NGIU25G2FIG8V7VD6CK9B6T2Z5 #服务端的秘钥
+  expire: 15 #多少秒后过期

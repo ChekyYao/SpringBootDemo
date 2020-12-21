@@ -476,6 +476,8 @@ org.apache.poi poi-ooxml：处理Excel [官网](https://poi.apache.org/index.htm
 
 net.bytebuddy：一个可以在运行时动态生成java class的类库。 [入门](https://zhuanlan.zhihu.com/p/151843984)
 
+io.jsonwebtoken jjwt：JJWT是一个提供端到端的JWT创建和验证的Java库。 [官网](https://jwt.io/) | [入门 1](https://www.cnblogs.com/cndarren/p/11518443.html) | [入门 2](https://www.cnblogs.com/loveer/p/11429111.html)
+
 jodd
 
 - json：[官网](https://json.jodd.org/)
