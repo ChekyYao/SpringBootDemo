@@ -497,13 +497,18 @@ Hutool：一个Java工具包。[官网](https://www.hutool.cn/) | [Reference](ht
 
 spring-boot-starter-mail：关键类 JavaMailSender [入门 1](https://blog.csdn.net/qq_37745470/article/details/89094227) | [入门 2](https://www.cnblogs.com/zhangyinhua/p/9277684.html) 
 
+redis：[入门](https://www.cnblogs.com/yanguobin/p/11447728.html)
+
+- 搭建服务：redis-server.exe redis.windows.conf [请配置密码](https://jingyan.baidu.com/article/86fae3466be4bc7c49121abf.html)
+
+​	
+
 ### 5.6.扩展 补充
 
 **接下来准备完成以下3项就告一段落了。**
 
 rocketmq **需要JDK8的环境**
 文件 fastdfs **需要Linux来搭建Server端**
-redis
 
 ## **参考文献 Reference:**
 

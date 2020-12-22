@@ -18,6 +18,12 @@ spring:
     #properties.mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
     #properties.from: chekyyao@aliyun.com
 
+#redis 启动服务 redis-server.exe redis.windows.conf
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456 #配置密码 https://jingyan.baidu.com/article/86fae3466be4bc7c49121abf.html
+
 server:
   port: 8080
 
