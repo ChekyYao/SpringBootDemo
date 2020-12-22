@@ -23,6 +23,12 @@ spring:
     host: localhost
     port: 6379
     password: 123456 #配置密码 https://jingyan.baidu.com/article/86fae3466be4bc7c49121abf.html
+    jedis:
+      pool:
+        max-active: 500
+        max-idle: 1000
+        max-wait: 6000ms
+        min-idle: 4
 
 server:
   port: 8080

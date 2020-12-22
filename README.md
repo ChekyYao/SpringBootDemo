@@ -500,6 +500,7 @@ spring-boot-starter-mail：关键类 JavaMailSender [入门 1](https://blog.csdn
 redis：[入门](https://www.cnblogs.com/yanguobin/p/11447728.html)
 
 - 搭建服务：redis-server.exe redis.windows.conf [请配置密码](https://jingyan.baidu.com/article/86fae3466be4bc7c49121abf.html)
+- Redisson：[Reference](https://www.cnblogs.com/milicool/p/9201271.html)
 
 ​	
 
