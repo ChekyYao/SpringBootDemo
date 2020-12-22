@@ -502,13 +502,11 @@ redis：[入门](https://www.cnblogs.com/yanguobin/p/11447728.html)
 - 搭建服务：redis-server.exe redis.windows.conf [请配置密码](https://jingyan.baidu.com/article/86fae3466be4bc7c49121abf.html)
 - Redisson：[Reference](https://www.cnblogs.com/milicool/p/9201271.html)
 
-​	
+rocketmq：[官网](https://rocketmq.apache.org/) | [Docs](https://github.com/apache/rocketmq/tree/master/docs/cn) | [官方 Quick Start](https://rocketmq.apache.org/docs/quick-start/) | [Vedio](https://www.bilibili.com/video/BV1L4411y7mn)| [入门 1](https://www.cnblogs.com/lizhangyong/p/8978855.html) | [入门 2](https://www.cnblogs.com/pingyun/archive/2019/10/07/11629616.html) 
 
 ### 5.6.扩展 补充
 
-**接下来准备完成以下3项就告一段落了。**
-
-rocketmq **需要JDK8的环境**
+**接下来准备完成以下1项就告一段落了。**
 文件 fastdfs **需要Linux来搭建Server端**
 
 ## **参考文献 Reference:**

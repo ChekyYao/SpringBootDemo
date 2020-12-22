@@ -231,6 +231,13 @@
 			<version>3.5.7</version>
 		</dependency>
 
+		<!--使用 rocketmq -->
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-client</artifactId>
+			<version>4.3.0</version>
+		</dependency>
+
 		<!--使用 hutool -->
 		<dependency>
 			<groupId>cn.hutool</groupId>
