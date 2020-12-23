@@ -444,6 +444,8 @@ https://github.com/ChekyYao/SpringBootDemo/tree/main/com-cheky-dubbo-demo
 
 ### 5.5. 扩展
 
+**以下涉及的安装包详见 百度网盘**
+
 ~~Groovy：[官网-入口](http://www.groovy-lang.org/) | [Doc](http://www.groovy-lang.org/documentation.html) | [教程](https://www.w3cschool.cn/groovy/groovy_overview.html) | [简书](https://www.jianshu.com/p/e8dec95c4326)~~
 
 Jackson：[使用详解 重点看七 Jackson注解](https://juejin.cn/post/6844904166809157639#heading-1) | [GitHub](https://github.com/FasterXML/jackson)
@@ -499,12 +501,19 @@ spring-boot-starter-mail：关键类 JavaMailSender [入门 1](https://blog.csdn
 
 redis：[入门](https://www.cnblogs.com/yanguobin/p/11447728.html)
 
-- 搭建服务：redis-server.exe redis.windows.conf [请配置密码](https://jingyan.baidu.com/article/86fae3466be4bc7c49121abf.html)
+- 启动Server：redis-server.exe redis.windows.conf [请配置密码](https://jingyan.baidu.com/article/86fae3466be4bc7c49121abf.html)
 - Redisson：[Reference](https://www.cnblogs.com/milicool/p/9201271.html)
 
 rocketmq：[官网](https://rocketmq.apache.org/) | [Docs](https://github.com/apache/rocketmq/tree/master/docs/cn) | [官方 Quick Start](https://rocketmq.apache.org/docs/quick-start/) | [Vedio](https://www.bilibili.com/video/BV1L4411y7mn)| [入门 1](https://www.cnblogs.com/lizhangyong/p/8978855.html) | [入门 2](https://www.cnblogs.com/pingyun/archive/2019/10/07/11629616.html) 
 
+- 启动Server：.\bin\mqnamesrv.cmd
+- 启动Broker：.\bin\mqbroker.cmd -n localhost:9876 autoCreateTopicEnable=true
+
 - [springboot集成](https://www.jianshu.com/p/4c9c0ed3216e) 
+
+zookeeper：[搭建](https://blog.csdn.net/weixin_40880305/article/details/84839659)
+
+- 启动Server：.\bin\zkServer.cmd
 
 ### 5.6.扩展 补充
 
