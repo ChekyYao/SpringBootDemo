@@ -504,6 +504,8 @@ redis：[入门](https://www.cnblogs.com/yanguobin/p/11447728.html)
 
 rocketmq：[官网](https://rocketmq.apache.org/) | [Docs](https://github.com/apache/rocketmq/tree/master/docs/cn) | [官方 Quick Start](https://rocketmq.apache.org/docs/quick-start/) | [Vedio](https://www.bilibili.com/video/BV1L4411y7mn)| [入门 1](https://www.cnblogs.com/lizhangyong/p/8978855.html) | [入门 2](https://www.cnblogs.com/pingyun/archive/2019/10/07/11629616.html) 
 
+- [springboot集成](https://www.jianshu.com/p/4c9c0ed3216e) 
+
 ### 5.6.扩展 补充
 
 **接下来准备完成以下1项就告一段落了。**

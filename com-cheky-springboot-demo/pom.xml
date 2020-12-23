@@ -232,10 +232,16 @@
 		</dependency>
 
 		<!--使用 rocketmq -->
-		<dependency>
+		<!--使用 rocketmq-spring-boot-starter 本身自动集成依赖了 rocketmq-client -->
+		<!--<dependency>
 			<groupId>org.apache.rocketmq</groupId>
 			<artifactId>rocketmq-client</artifactId>
 			<version>4.3.0</version>
+		</dependency>-->
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-spring-boot-starter</artifactId>
+			<version>2.0.3</version>
 		</dependency>
 
 		<!--使用 hutool -->

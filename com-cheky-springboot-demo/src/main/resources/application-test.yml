@@ -39,3 +39,10 @@ jwt:
   secret: JO6HN3NGIU25G2FIG8V7VD6CK9B6T2Z5 #服务端的秘钥
   expire: 15 #多少秒后过期
 
+#name-server
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    group: mygroup
+  consumer:
+    group: mygroup
