@@ -508,8 +508,8 @@ rocketmq：[官网](https://rocketmq.apache.org/) | [Docs](https://github.com/ap
 
 - 启动Server：.\bin\mqnamesrv.cmd
 - 启动Broker：.\bin\mqbroker.cmd -n localhost:9876 autoCreateTopicEnable=true
-
 - [springboot集成](https://www.jianshu.com/p/4c9c0ed3216e) 
+- 控制台：[GitHub](https://github.com/apache/rocketmq-externals/blob/master/rocketmq-console/doc/1_0_0/UserGuide_CN.md) | [入门 1](https://www.imooc.com/article/290092?block_id=tuijian_wz) | [入门 2](https://www.cnblogs.com/miaoying/p/10319840.html)
 
 zookeeper：[搭建](https://blog.csdn.net/weixin_40880305/article/details/84839659)
 
