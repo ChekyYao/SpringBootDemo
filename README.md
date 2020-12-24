@@ -515,6 +515,8 @@ zookeeper：[搭建](https://blog.csdn.net/weixin_40880305/article/details/84839
 
 - 启动Server：.\bin\zkServer.cmd
 
+Schedule：定时任务。 [Reference](https://www.cnblogs.com/expiator/p/11048403.html)
+
 ### 5.6.扩展 补充
 
 **接下来准备完成以下1项就告一段落了。**
