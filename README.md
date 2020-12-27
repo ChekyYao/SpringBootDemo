@@ -519,7 +519,8 @@ Schedule：定时任务。 [Reference](https://www.cnblogs.com/expiator/p/110484
 
 fastdfs：[搭建](https://www.cnblogs.com/handsomeye/p/9451568.html) | [入门](https://www.cnblogs.com/fydra/p/12913495.html) 
 
-- 安装内置Ubuntu 20.04 LTS，并执行sudo apt-get install build-essential
+- 安装Win10内置Ubuntu 20.04 LTS，并执行sudo apt-get install build-essential
+  - Ubuntu位置 C:\Users\{username}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\
 - 搭建只需到Storage服务为止就够用了
 
 ## **参考文献 Reference:**
