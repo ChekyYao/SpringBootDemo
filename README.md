@@ -517,10 +517,10 @@ zookeeper：[搭建](https://blog.csdn.net/weixin_40880305/article/details/84839
 
 Schedule：定时任务。 [Reference](https://www.cnblogs.com/expiator/p/11048403.html)
 
-### 5.6.扩展 补充
+fastdfs：[搭建](https://www.cnblogs.com/handsomeye/p/9451568.html) | [入门](https://www.cnblogs.com/fydra/p/12913495.html) 
 
-**接下来准备完成以下1项就告一段落了。**
-文件 fastdfs **需要Linux来搭建Server端**
+- 安装内置Ubuntu 20.04 LTS，并执行sudo apt-get install build-essential
+- 搭建只需到Storage服务为止就够用了
 
 ## **参考文献 Reference:**
 

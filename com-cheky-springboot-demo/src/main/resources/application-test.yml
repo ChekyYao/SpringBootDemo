@@ -46,3 +46,13 @@ rocketmq:
     group: mygroup
   consumer:
     group: mygroup
+
+#配置 fdfs
+fdfs:
+  so-timeout: 2001
+  connect-timeout: 601
+  thumb-image:
+    width: 60
+    height: 60
+  tracker-list:
+    - 192.168.1.105:22122 #连接已部署tracker server的IP和Port

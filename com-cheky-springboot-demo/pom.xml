@@ -231,6 +231,14 @@
 			<version>3.5.7</version>
 		</dependency>
 
+		<!--使用 fdfs client -->
+		<dependency>
+			<groupId>com.github.tobato</groupId>
+			<artifactId>fastdfs-client</artifactId>
+			<!-- 版本也可以定义在父工程的pom中 -->
+			<version>1.26.1-RELEASE</version>
+		</dependency>
+
 		<!--使用 rocketmq -->
 		<!--使用 rocketmq-spring-boot-starter 本身自动集成依赖了 rocketmq-client -->
 		<!--<dependency>
