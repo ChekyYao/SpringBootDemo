@@ -523,6 +523,10 @@ fastdfs：[搭建](https://www.cnblogs.com/handsomeye/p/9451568.html) | [入门]
   - Ubuntu位置 C:\Users\{username}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\
 - 搭建只需到Storage服务为止就够用了
 
+Linux：[内核](https://www.kernel.org/) | [Ubuntu Vedio](https://www.bilibili.com/video/BV1pE411C7ho) | [Ubuntu 官网](https://ubuntu.com/download) 
+
+VMware：[下载](http://www.dayanzai.me/vmware-workstation.html) | [官网](https://www.vmware.com/) 
+
 ## **参考文献 Reference:**
 
 [^1]:  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)
