@@ -533,6 +533,8 @@ fastdfs：[搭建](https://www.cnblogs.com/handsomeye/p/9451568.html) | [入门]
 
 Linux：[内核](https://www.kernel.org/) | [Ubuntu Vedio](https://www.bilibili.com/video/BV1pE411C7ho) | [Ubuntu 官网](https://ubuntu.com/download) 
 
+- Shell：[教程](http://c.biancheng.net/cpp/view/6994.html) 
+
 VMware：[下载](http://www.dayanzai.me/vmware-workstation.html) | [官网](https://www.vmware.com/) 
 
 Nginx：[Vedio](https://www.bilibili.com/video/BV1zJ411w7SV) 
