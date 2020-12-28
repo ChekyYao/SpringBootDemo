@@ -519,7 +519,7 @@ Schedule：定时任务。 [Reference](https://www.cnblogs.com/expiator/p/110484
 
 fastdfs：[搭建](https://www.cnblogs.com/handsomeye/p/9451568.html) | [入门](https://www.cnblogs.com/fydra/p/12913495.html) 
 
-- 安装Win10内置Ubuntu 20.04 LTS
+- 安装Win10内置Ubuntu 20.04 LTS; [Reference](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
   - Ubuntu位置 C:\Users\{username}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\
   - 已下是操作的指令
   - sudo passwd root  #重置root密码
