@@ -517,19 +517,7 @@ zookeeper：[搭建](https://blog.csdn.net/weixin_40880305/article/details/84839
 
 Schedule：定时任务。 [Reference](https://www.cnblogs.com/expiator/p/11048403.html)
 
-fastdfs：[搭建](https://www.cnblogs.com/handsomeye/p/9451568.html) | [入门](https://www.cnblogs.com/fydra/p/12913495.html) 
-
-- 安装Win10内置Ubuntu 20.04 LTS; [Reference](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
-  - Ubuntu位置 C:\Users\{username}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\
-  - 已下是操作的指令
-  - sudo passwd root  #重置root密码
-  - su root #切换的root用户
-  - apt-get update #更新
-  - sudo apt-get install build-essential #安装编译工具
-  - sudo apt-get install zlib1g-dev #安装gzip
-- 搭建只需到Storage服务为止就够了
-  - 但需要 http 可以访问资源，请完成整篇搭建的配置；
-  - 注意：http 出现 404，请 执行 chmod 777 -R /home/cheuk/fastdfs （原因：/usr/local/nginx/logs/error.log 记录Permission denied）
+fastdfs：[搭建](https://chekyyao.gitee.io/2020/12286000.html) | [Vedio](https://www.bilibili.com/video/BV1gz4y1r7KP) 
 
 Linux：[内核](https://www.kernel.org/) | [Ubuntu Vedio](https://www.bilibili.com/video/BV1pE411C7ho) | [Ubuntu 官网](https://ubuntu.com/download) 
 
@@ -537,7 +525,9 @@ Linux：[内核](https://www.kernel.org/) | [Ubuntu Vedio](https://www.bilibili.
 
 VMware：[下载](http://www.dayanzai.me/vmware-workstation.html) | [官网](https://www.vmware.com/) 
 
-Nginx：[Vedio](https://www.bilibili.com/video/BV1zJ411w7SV) 
+Nginx：[官网](https://nginx.org/) | [Vedio](https://www.bilibili.com/video/BV1zJ411w7SV) 
+
+- 用keepalived配置高可用集群
 
 ## **参考文献 Reference:**
 
