@@ -529,6 +529,16 @@ Nginx：[官网](https://nginx.org/) | [Vedio](https://www.bilibili.com/video/BV
 
 - 用keepalived配置高可用集群
 
+Nodejs：[教程](https://www.runoob.com/nodejs/nodejs-tutorial.html) 
+
+- npm set cache D:\Setup\nodejs\node_cache 
+- npm set prefix D:\Setup\nodejs\node_global
+- npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+vue2.x：[官网](https://cn.vuejs.org/v2/guide/) | [Vedio](https://www.bilibili.com/video/BV1Te411s74F) 
+
+VSCode：[官网](https://code.visualstudio.com/) | [Reference](https://www.cnblogs.com/gwkzb/articles/12427824.html) 
+
 ## **参考文献 Reference:**
 
 [^1]:  [Java零基础教程视频](https://www.bilibili.com/video/BV1Rx411876f?p=834) 与 [Java教程](https://www.runoob.com/java/java-collections.html)
