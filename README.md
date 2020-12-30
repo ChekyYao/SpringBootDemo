@@ -480,7 +480,7 @@ org.apache.tika：Tika 是一个内容抽取的工具集合 (a toolkit for text 
 
 net.bytebuddy：一个可以在运行时动态生成java class的类库。 [入门](https://zhuanlan.zhihu.com/p/151843984)
 
-io.jsonwebtoken jjwt：JJWT是一个提供端到端的JWT创建和验证的Java库。 [官网](https://jwt.io/) | [入门 1](https://www.cnblogs.com/cndarren/p/11518443.html) | [入门 2](https://www.cnblogs.com/loveer/p/11429111.html)
+io.jsonwebtoken jjwt：JJWT是一个提供端到端的JWT创建和验证的Java库。 [官网](https://jwt.io/) | [入门 1](https://www.cnblogs.com/cndarren/p/11518443.html) | [入门 2](https://www.cnblogs.com/loveer/p/11429111.html) | [Vedio](https://www.bilibili.com/video/BV1i54y1m7cP) 
 
 jodd
 
@@ -529,15 +529,20 @@ Nginx：[官网](https://nginx.org/) | [Vedio](https://www.bilibili.com/video/BV
 
 - 用keepalived配置高可用集群
 
-Nodejs：[教程](https://www.runoob.com/nodejs/nodejs-tutorial.html) 
+Nodejs：[教程](https://www.runoob.com/nodejs/nodejs-tutorial.html) | [配置NPM与安装CNPM](https://blog.csdn.net/qq_26239917/article/details/90109676) 
 
-- npm set cache D:\Setup\nodejs\node_cache 
-- npm set prefix D:\Setup\nodejs\node_global
-- npm install -g cnpm --registry=https://registry.npm.taobao.org
+vue2.x：[官网](https://cn.vuejs.org/v2/guide/) | [Vedio](https://www.bilibili.com/video/BV1Te411s74F) | [安装](https://www.cnblogs.com/caochao-/p/8711141.html)
 
-vue2.x：[官网](https://cn.vuejs.org/v2/guide/) | [Vedio](https://www.bilibili.com/video/BV1Te411s74F) 
+VSCode：[官网](https://code.visualstudio.com/) | [Reference](https://www.cnblogs.com/gwkzb/articles/12427824.html) | [Vedio](https://www.bilibili.com/video/BV1V4411g7SR) 
 
-VSCode：[官网](https://code.visualstudio.com/) | [Reference](https://www.cnblogs.com/gwkzb/articles/12427824.html) 
+- 安装如下插件
+- Vetur
+- ESLint
+- LiveServer
+- HTML CSS Support
+- JavaScript Snippet Pack
+- Path Intellisense
+- Vue 3 Snippets
 
 ## **参考文献 Reference:**
 
