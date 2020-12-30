@@ -531,7 +531,9 @@ Nginx：[官网](https://nginx.org/) | [Vedio](https://www.bilibili.com/video/BV
 
 Nodejs：[教程](https://www.runoob.com/nodejs/nodejs-tutorial.html) | [配置NPM与安装CNPM](https://blog.csdn.net/qq_26239917/article/details/90109676) 
 
-vue2.x：[官网](https://cn.vuejs.org/v2/guide/) | [Vedio](https://www.bilibili.com/video/BV1Te411s74F) | [安装](https://www.cnblogs.com/caochao-/p/8711141.html)
+vue2.x：[官网](https://cn.vuejs.org/v2/guide/) | [Vedio](https://www.bilibili.com/video/BV1Te411s74F) | [安装](https://www.cnblogs.com/caochao-/p/8711141.html) 
+
+- 使用 [HBuilderX](https://www.dcloud.io/) 的uni-app 进行 Vue的项目开发
 
 VSCode：[官网](https://code.visualstudio.com/) | [Reference](https://www.cnblogs.com/gwkzb/articles/12427824.html) | [Vedio](https://www.bilibili.com/video/BV1V4411g7SR) 
 
