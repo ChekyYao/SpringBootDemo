@@ -48,7 +48,7 @@ JVM 运行环境  (与操作系统交互)
 
 1. yaml语法；
 2. 加载配置 由高覆盖低，所有的配置会形成互补配置；
-3. 日志 采用 slf4j [Reference](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging)
+3. 日志 采用 slf4j [官网](http://www.slf4j.org/) | [配置](https://www.cnblogs.com/steveshao/archive/2019/10/10/11649537.html) | [Reference](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging) 
 
 ### 3.2.框架
 
@@ -524,6 +524,8 @@ Linux：[内核](https://www.kernel.org/) | [Ubuntu Vedio](https://www.bilibili.
 - Shell：[教程](http://c.biancheng.net/cpp/view/6994.html) 
 
 VMware：[下载](http://www.dayanzai.me/vmware-workstation.html) | [官网](https://www.vmware.com/) 
+
+VirtualBox：[官网](https://www.virtualbox.org/wiki/Downloads) | [Vedio](https://www.bilibili.com/video/BV1fA411j7mB) 
 
 Nginx：[官网](https://nginx.org/) | [Vedio](https://www.bilibili.com/video/BV1zJ411w7SV) 
 
