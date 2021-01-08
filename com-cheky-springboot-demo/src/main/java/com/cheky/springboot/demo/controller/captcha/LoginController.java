@@ -2,6 +2,7 @@ package com.cheky.springboot.demo.controller.captcha;
 
 import com.wf.captcha.utils.CaptchaUtil;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -13,6 +14,7 @@ import javax.servlet.http.HttpServletRequest;
  * @date 2020-12-15
  */
 @RestController
+@RequestMapping("captcha")
 public class LoginController {
 
     @PostMapping("/login")

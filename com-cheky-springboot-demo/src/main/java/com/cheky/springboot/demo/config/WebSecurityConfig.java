@@ -54,7 +54,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .requestMatchers(new AntPathRequestMatcher("/security/**")).authenticated()
                 .anyRequest().permitAll()
                 .and()
-                .formLogin().successForwardUrl("/security/login-success");
+                .formLogin().loginPage("/login-view")
+                .loginProcessingUrl("/login")
+                .successForwardUrl("/security/login-success");
     }
 
     @Bean

@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  * https://github.com/whvcse/EasyCaptcha
  */
 @RestController
+@RequestMapping("captcha")
 public class CaptchaController {
 
     @RequestMapping("/captcha")
