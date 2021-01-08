@@ -21,7 +21,7 @@ public class SecurityController {
     }
 
     @GetMapping("user")
-    @PreAuthorize("hasAnyRole('user', 'admin')")
+    @PreAuthorize("hasAnyRole('normal', 'admin')")
     public String helloUser(){
         return "hello, the role of user!";
     }

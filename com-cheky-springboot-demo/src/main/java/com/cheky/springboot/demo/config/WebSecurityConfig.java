@@ -51,15 +51,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         // 禁用 csrf, 由于使用的是JWT，我们这里不需要csrf
         http.cors().and().csrf().disable()
                 .authorizeRequests()
-                // 跨域预检请求
-                .antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                // 登录URL
-                .antMatchers("/login").permitAll()
-                // swagger
-                .antMatchers("/swagger**/**").permitAll()
-                .antMatchers("/webjars/**").permitAll()
-                .antMatchers("/v2/**").permitAll()
-                .requestMatchers(new AntPathRequestMatcher("/security")).authenticated();
+                .requestMatchers(new AntPathRequestMatcher("/security/**")).authenticated()
+                .anyRequest().permitAll()
+                .and()
+                .formLogin();
                 // 其他所有请求需要身份认证
                 //.anyRequest().authenticated();
     }
