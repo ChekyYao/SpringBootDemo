@@ -70,9 +70,6 @@ JVM 运行环境  (与操作系统交互)
 
     关闭服务器：shutdown.cmd
 
-- **Gateway**
-
-  Dubbo想要个网关怎么办？[试试整合Spring Cloud Gateway](https://developer.aliyun.com/article/766073)
 
 #### 3.2.2. ORM 之 MyBatis
 
@@ -551,6 +548,10 @@ VSCode：[官网](https://code.visualstudio.com/) | [Reference](https://www.cnbl
 Docker：[官网](https://docs.docker.com/) | [实验室](https://labs.play-with-docker.com/) | [Vedio 1](https://www.bilibili.com/video/BV1og4y1q7M4) | [Vedio 2](https://www.bilibili.com/video/BV1pW411G7r3) | [Vedio 3](https://www.bilibili.com/video/BV1Vs411E7AR) 
 
 Spring Security：[Vedio 1](https://www.bilibili.com/video/BV1VE411h7aL) | [Vedio 2](https://www.bilibili.com/video/BV15a411A7kP)
+
+Spring Cloud Gateway：[Vedio](https://www.bilibili.com/video/BV1Uf4y1i77d)
+
+- Dubbo想要个网关怎么办？[试试整合Spring Cloud Gateway](https://developer.aliyun.com/article/766073)
 
 ## **参考文献 Reference:**
 
