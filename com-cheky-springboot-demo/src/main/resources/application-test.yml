@@ -31,13 +31,23 @@ spring:
         min-idle: 4
 
 server:
-  port: 8080
+  port: 8084
 
 management.endpoints.web.exposure.include: "*" #暴露数据 以便后续监控
 
 jwt:
   secret: JO6HN3NGIU25G2FIG8V7VD6CK9B6T2Z5 #服务端的秘钥
   expire: 15 #多少秒后过期
+
+#jwt
+jwt2:
+  header: Authorization
+  # 令牌前缀
+  token-start-with: Bearer
+  # 使用Base64对该令牌进行编码
+  base64-secret: L3Nob3BwaW5nL2NvbmZpcm0uYWN0aW9uP2lkPTEmbmFtZT1pdHpoYWkYWN0aW9uP2lkPTEmbmFtZT1pdHpoYWk=
+  # 令牌过期时间 此处单位/毫秒
+  token-validity-in-seconds: 14400000
 
 #name-server
 rocketmq:
@@ -55,4 +65,4 @@ fdfs:
     width: 60
     height: 60
   tracker-list:
-    - 192.168.1.105:22122 #连接已部署tracker server的IP和Port
+    - 10.3.0.166:22122 #连接已部署tracker server的IP和Port
