@@ -337,7 +337,25 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
 | git push origin -delete [branch-name] | 删除远程分支                       |
 | git branch -dr [remote/branch]        | 删除远程分支                       |
 
-### 4.5. Lombok
+
+
+### 4.5. Maven
+
+[官网-入口](https://maven.apache.org/) | [Repositories](https://mvnrepository.com/) | [Vedio 1](https://www.bilibili.com/video/BV124411H7Fj?p=3) | [Vedio 2](https://www.bilibili.com/video/BV1dp4y1Q7Hf?from=search&seid=14638114435887962271)| [教程](https://www.runoob.com/maven/maven-repositories.html) 
+
+简介：项目管理工具，如 管理jar包，集成测试，一键打包等。
+
+Repositories： 可以在上面找到 如 Druid 的Maven包。
+
+
+
+- **nexus**是一个强大的maven仓库管理器,它极大的简化了本地内部仓库的维护和外部仓库的访问.[Reference](https://blog.csdn.net/ytm15732625529/article/details/81159425)
+
+
+
+### 4.6. Plugins
+
+#### 4.6.1. Lombok
 
 [官网-入口](https://projectlombok.org/) | [Vedio](https://www.bilibili.com/video/BV1qJ411G7Dv?from=search&seid=17190820160849777380) | [Reference](https://zhuanlan.zhihu.com/p/32779910)
 
@@ -356,21 +374,11 @@ How to pull requests in GitHub?  [reference](https://www.bilibili.com/video/BV1m
   </dependency>
   ```
 
-### 4.6. Coding Style
+#### 4.6.2. Coding Style
 
 安装 [阿里编码规约插件](https://jingyan.baidu.com/article/75ab0bcb75beced6864db2b1.html)
 
-### 4.7. Maven
-
-[官网-入口](https://maven.apache.org/) | [Repositories](https://mvnrepository.com/) | [Vedio 1](https://www.bilibili.com/video/BV124411H7Fj?p=3) | [Vedio 2](https://www.bilibili.com/video/BV1dp4y1Q7Hf?from=search&seid=14638114435887962271)| [教程](https://www.runoob.com/maven/maven-repositories.html) 
-
-简介：项目管理工具，如 管理jar包，集成测试，一键打包等。
-
-Repositories： 可以在上面找到 如 Druid 的Maven包。
-
-
-
-- **nexus**是一个强大的maven仓库管理器,它极大的简化了本地内部仓库的维护和外部仓库的访问.[Reference](https://blog.csdn.net/ytm15732625529/article/details/81159425)
+#### 4.6.3. Indent Rainbow
 
 
 
@@ -530,7 +538,7 @@ Nginx：[官网](https://nginx.org/) | [Vedio](https://www.bilibili.com/video/BV
 
 Nodejs：[教程](https://www.runoob.com/nodejs/nodejs-tutorial.html) | [配置NPM与安装CNPM](https://blog.csdn.net/qq_26239917/article/details/90109676) 
 
-vue2.x：[官网](https://cn.vuejs.org/v2/guide/) | [Vedio](https://www.bilibili.com/video/BV1Te411s74F) | [安装](https://www.cnblogs.com/caochao-/p/8711141.html) 
+vue2.x：[官网](https://cn.vuejs.org/v2/guide/) | [Vedio1](https://www.bilibili.com/video/BV12J411m7MG) | [Vedio2](https://www.bilibili.com/video/BV1Te411s74F) | [安装](https://www.cnblogs.com/caochao-/p/8711141.html) 
 
 - 使用 [HBuilderX](https://www.dcloud.io/) 的uni-app 进行 Vue的项目开发
 
