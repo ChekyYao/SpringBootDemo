@@ -18,6 +18,8 @@ public class UserJpaController {
 
     private final UserService userService;
 
+    //解决跨域问题 方法2 不推荐
+//    @CrossOrigin({"http://127.0.0.1:8284", "http://127.0.0.1:5500"})
     /**
      * 依据id查询User
      * @param id
